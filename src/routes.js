@@ -16,16 +16,20 @@ Coded by www.creative-tim.com
 // @mui material components
 import Icon from "@mui/material/Icon";
 
-// @mui icons
-//import GitHubIcon from "@mui/icons-material/GitHub";
-
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
 import Author from "layouts/pages/landing-pages/author";
 import SignIn from "layouts/pages/authentication/sign-in";
+import Presentation from "layouts/pages/presentation"; // Importa Presentation aquí
 
 const routes = [
+  {
+    name: "Inicio",
+    icon: <Icon>home</Icon>,
+    route: "/",
+    component: <Presentation />,
+  },
   {
     name: "Páginas",
     icon: <Icon>dashboard</Icon>,
@@ -64,7 +68,6 @@ const routes = [
       },
     ],
   },
-  /*
   {
     name: "Soporte",
     icon: <Icon>article</Icon>,
@@ -72,33 +75,25 @@ const routes = [
       {
         name: "Preguntas Frecuentes",
         description: "Encuentra respuestas a las preguntas más comunes sobre nuestros productos.",
-        href: "https://www.creative-tim.com/learning-lab/react/quick-start/material-kit/", // Reemplaza con tu enlace de FAQs
+        href: "https://www.creative-tim.com/learning-lab/react/quick-start/material-kit/",
       },
       {
         name: "Nuestras Marcas",
         description: "Conoce las marcas de alta calidad que distribuimos.",
-        href: "https://www.creative-tim.com/learning-lab/react/colors/material-kit/", // Reemplaza con tu enlace de marcas
+        href: "https://www.creative-tim.com/learning-lab/react/colors/material-kit/",
       },
       {
         name: "Políticas de Envío",
         description: "Información detallada sobre nuestros envíos y entregas.",
-        href: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/", // Reemplaza con tu enlace de envíos
+        href: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",
       },
       {
         name: "Nuestra Visión",
         description: "Conoce más sobre la misión de nuestra empresa.",
-        href: "https://www.creative-tim.com/learning-lab/react/datepicker/material-kit/", // Reemplaza con tu enlace de visión
+        href: "https://www.creative-tim.com/learning-lab/react/datepicker/material-kit/",
       },
     ],
   },
-  */
-  /*
-  {
-    name: "GitHub",
-    icon: <GitHubIcon />,
-    href: "https://www.github.com/creativetimofficial/material-kit-react", // Puedes cambiar este enlace a tu propio repositorio
-  },
-*/
 ];
 
 export default routes;
