@@ -37,7 +37,7 @@ function Footer() {
             mb={{ xs: 3, lg: 0 }}
           >
             <MKTypography variant="h6" textTransform="uppercase" mb={{ xs: 2, lg: 3 }}>
-              Material Design
+              Mobadent
             </MKTypography>
             <Stack
               component="ul"
@@ -55,11 +55,11 @@ function Footer() {
                   fontWeight="regular"
                   opacity={0.8}
                   component={Link}
-                  href="https://www.creative-tim.com"
+                  href="/pages/landing-pages/about-us"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Home
+                  Quiénes Somos
                 </MKTypography>
               </MKBox>
               <MKBox component="li">
@@ -68,11 +68,11 @@ function Footer() {
                   fontWeight="regular"
                   opacity={0.8}
                   component={Link}
-                  href="https://www.creative-tim.com/presentation"
+                  href="/catalogo"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  About
+                  Catálogo
                 </MKTypography>
               </MKBox>
               <MKBox component="li">
@@ -81,7 +81,7 @@ function Footer() {
                   fontWeight="regular"
                   opacity={0.8}
                   component={Link}
-                  href="https://www.creative-tim.com/blog"
+                  href="/blog"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -94,27 +94,25 @@ function Footer() {
                   fontWeight="regular"
                   opacity={0.8}
                   component={Link}
-                  href="https://www.creative-tim.com"
+                  href="/pages/landing-pages/contact-us"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Services
+                  Contacto
                 </MKTypography>
               </MKBox>
             </Stack>
             <MKTypography variant="button" opacity={0.8}>
-              Copyright © <script>document.write(new Date().getFullYear())</script>2021 Material
-              Design by Creative Tim.
+              Copyright © {new Date().getFullYear()} Mobadent.
             </MKTypography>
           </Grid>
           <Grid item xs={12} lg={6} ml="auto" textAlign={{ xs: "center", lg: "right" }}>
             <MKTypography variant="body1" fontWeight="bold" mb={6} sx={{ fontSize: "1.125rem" }}>
-              The reward for getting on the stage is fame. The price of fame is you can&apos;t get
-              off the stage.
+              Nuestra misión es llevar los mejores materiales dentales a tu práctica.
             </MKTypography>
             <MKTypography
               component={Link}
-              href="#dribbble"
+              href="https://www.facebook.com/tunombre"
               target="_blank"
               rel="noreferrer"
               variant="body2"
@@ -122,11 +120,11 @@ function Footer() {
               opacity={0.5}
               mr={3}
             >
-              <i className="fab fa-dribbble" />
+              <i className="fab fa-facebook" />
             </MKTypography>
             <MKTypography
               component={Link}
-              href="#twitter"
+              href="https://twitter.com/tunombre"
               target="_blank"
               rel="noreferrer"
               variant="body2"
@@ -138,7 +136,7 @@ function Footer() {
             </MKTypography>
             <MKTypography
               component={Link}
-              href="#pinterest"
+              href="https://www.instagram.com/tunombre"
               target="_blank"
               rel="noreferrer"
               variant="body2"
@@ -146,18 +144,18 @@ function Footer() {
               opacity={0.5}
               mr={3}
             >
-              <i className="fab fa-pinterest" />
+              <i className="fab fa-instagram" />
             </MKTypography>
             <MKTypography
               component={Link}
-              href="#github"
+              href="https://wa.me/593960044111"
               target="_blank"
               rel="noreferrer"
               variant="body2"
               color="dark"
               opacity={0.5}
             >
-              <i className="fab fa-github" />
+              <i className="fab fa-whatsapp" />
             </MKTypography>
           </Grid>
         </Grid>

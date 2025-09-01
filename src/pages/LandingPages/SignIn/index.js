@@ -26,8 +26,8 @@ import MuiLink from "@mui/material/Link";
 
 // @mui icons
 import FacebookIcon from "@mui/icons-material/Facebook";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import GoogleIcon from "@mui/icons-material/Google";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp"; // Ícono de WhatsApp
+import InstagramIcon from "@mui/icons-material/Instagram"; // Ícono de Instagram
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -56,8 +56,8 @@ function SignInBasic() {
         routes={routes}
         action={{
           type: "external",
-          route: "https://www.creative-tim.com/product/material-kit-react",
-          label: "free download",
+          route: "https://wa.me/593960044111",
+          label: "contactanos",
           color: "info",
         }}
         transparent
@@ -101,18 +101,39 @@ function SignInBasic() {
                 </MKTypography>
                 <Grid container spacing={3} justifyContent="center" sx={{ mt: 1, mb: 2 }}>
                   <Grid item xs={2}>
-                    <MKTypography component={MuiLink} href="#" variant="body1" color="white">
+                    <MKTypography
+                      component={MuiLink}
+                      href="https://wa.me/593960044111"
+                      variant="body1"
+                      color="white"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <WhatsAppIcon color="inherit" />
+                    </MKTypography>
+                  </Grid>
+                  <Grid item xs={2}>
+                    <MKTypography
+                      component={MuiLink}
+                      href="https://www.instagram.com/tunombre"
+                      variant="body1"
+                      color="white"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <InstagramIcon color="inherit" />
+                    </MKTypography>
+                  </Grid>
+                  <Grid item xs={2}>
+                    <MKTypography
+                      component={MuiLink}
+                      href="https://www.facebook.com/tunombre"
+                      variant="body1"
+                      color="white"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <FacebookIcon color="inherit" />
-                    </MKTypography>
-                  </Grid>
-                  <Grid item xs={2}>
-                    <MKTypography component={MuiLink} href="#" variant="body1" color="white">
-                      <GitHubIcon color="inherit" />
-                    </MKTypography>
-                  </Grid>
-                  <Grid item xs={2}>
-                    <MKTypography component={MuiLink} href="#" variant="body1" color="white">
-                      <GoogleIcon color="inherit" />
                     </MKTypography>
                   </Grid>
                 </Grid>

@@ -8,7 +8,7 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp"; // Agregado para WhatsA
 import MKTypography from "components/MKTypography";
 
 // Images
-import mobadentLogo from "assets/images/mobadent-logo.png"; // Reemplaza con la ruta de tu logo
+import mobadentLogo from "assets/images/favicon.png"; // Reemplaza con la ruta de tu logo
 
 const date = new Date().getFullYear();
 

@@ -8,12 +8,12 @@ import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
 // Importa tus logos. Asegúrate de que la ruta sea "./Categorias/"
-import logo3m from "./Categorias/3m.jpg";
-import logoKerr from "./Categorias/Kerr.jpg";
-import logoColtene from "./Categorias/Coltene.jpg";
-import logoUltradent from "./Categorias/Ultradent.jpg";
-import logoVOCO from "./Categorias/VOCO.jpg";
-import logoZhermack from "./Categorias/Zhermack.jpg";
+import logo3m from "assets/images/brands/3m.jpg";
+import logoKerr from "assets/images/brands/Kerr.jpg";
+import logoColtene from "assets/images/brands/Coltene.jpg";
+import logoUltradent from "assets/images/brands/Ultradent.jpg";
+import logoVOCO from "assets/images/brands/VOCO.jpg";
+import logoZhermack from "assets/images/brands/Zhermack.jpg";
 
 const Brands = () => {
   // Array de objetos con la información de los logos

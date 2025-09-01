@@ -64,6 +64,7 @@ const routes = [
       },
     ],
   },
+  /*
   {
     name: "Soporte",
     icon: <Icon>article</Icon>,
@@ -90,6 +91,7 @@ const routes = [
       },
     ],
   },
+  */
   /*
   {
     name: "GitHub",

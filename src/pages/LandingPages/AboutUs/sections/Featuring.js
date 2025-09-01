@@ -23,38 +23,72 @@ import MKBox from "components/MKBox";
 // Material Kit 2 React examples
 import DefaultCounterCard from "examples/Cards/CounterCards/DefaultCounterCard";
 
-// Images
-import coinbase from "assets/images/logos/gray-logos/logo-coinbase.svg";
-import nasa from "assets/images/logos/gray-logos/logo-nasa.svg";
-import netflix from "assets/images/logos/gray-logos/logo-netflix.svg";
-import pinterest from "assets/images/logos/gray-logos/logo-pinterest.svg";
-import spotify from "assets/images/logos/gray-logos/logo-spotify.svg";
-import vodafone from "assets/images/logos/gray-logos/logo-vodafone.svg";
+// Importa tus logos de marcas (asegúrate de que estas rutas sean correctas)
+import logo3m from "assets/images/brands/3m.jpg";
+import logoKerr from "assets/images/brands/Kerr.jpg";
+import logoColtene from "assets/images/brands/Coltene.jpg";
+import logoUltradent from "assets/images/brands/Ultradent.jpg";
+import logoVOCO from "assets/images/brands/VOCO.jpg";
+import logoZhermack from "assets/images/brands/Zhermack.jpg";
 
 function Featuring() {
   return (
     <MKBox component="section" pt={3} pb={8}>
       <Container>
-        <Grid container spacing={3} sx={{ mb: 12 }}>
-          <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={coinbase} alt="coinbase" width="100%" opacity={0.7} />
+        {/* Sección de logos de marcas */}
+        <Grid container spacing={3} sx={{ mb: 12, alignItems: "center" }}>
+          {" "}
+          {/* Alinea los elementos verticalmente */}
+          <Grid item xs={6} md={4} lg={2} sx={{ display: "flex", justifyContent: "center" }}>
+            <MKBox
+              component="img"
+              src={logo3m}
+              alt="3M"
+              sx={{ maxWidth: "80px", height: "auto", opacity: 0.7 }} // Ajusta el tamaño aquí
+            />
           </Grid>
-          <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={nasa} alt="nasa" width="100%" opacity={0.7} />
+          <Grid item xs={6} md={4} lg={2} sx={{ display: "flex", justifyContent: "center" }}>
+            <MKBox
+              component="img"
+              src={logoKerr}
+              alt="Kerr"
+              sx={{ maxWidth: "80px", height: "auto", opacity: 0.7 }} // Ajusta el tamaño aquí
+            />
           </Grid>
-          <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={netflix} alt="netflix" width="100%" opacity={0.7} />
+          <Grid item xs={6} md={4} lg={2} sx={{ display: "flex", justifyContent: "center" }}>
+            <MKBox
+              component="img"
+              src={logoColtene}
+              alt="Coltene"
+              sx={{ maxWidth: "80px", height: "auto", opacity: 0.7 }} // Ajusta el tamaño aquí
+            />
           </Grid>
-          <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={pinterest} alt="pinterest" width="100%" opacity={0.7} />
+          <Grid item xs={6} md={4} lg={2} sx={{ display: "flex", justifyContent: "center" }}>
+            <MKBox
+              component="img"
+              src={logoUltradent}
+              alt="Ultradent"
+              sx={{ maxWidth: "80px", height: "auto", opacity: 0.7 }} // Ajusta el tamaño aquí
+            />
           </Grid>
-          <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={spotify} alt="spotify" width="100%" opacity={0.7} />
+          <Grid item xs={6} md={4} lg={2} sx={{ display: "flex", justifyContent: "center" }}>
+            <MKBox
+              component="img"
+              src={logoVOCO}
+              alt="VOCO"
+              sx={{ maxWidth: "80px", height: "auto", opacity: 0.7 }} // Ajusta el tamaño aquí
+            />
           </Grid>
-          <Grid item xs={6} md={4} lg={2}>
-            <MKBox component="img" src={vodafone} alt="vodafone" width="100%" opacity={0.7} />
+          <Grid item xs={6} md={4} lg={2} sx={{ display: "flex", justifyContent: "center" }}>
+            <MKBox
+              component="img"
+              src={logoZhermack}
+              alt="Zhermack"
+              sx={{ maxWidth: "80px", height: "auto", opacity: 0.7 }} // Ajusta el tamaño aquí
+            />
           </Grid>
         </Grid>
+        {/* Sección de contadores */}
         <Grid container justifyContent="center" sx={{ textAlign: "center" }}>
           <Grid item xs={12} md={3}>
             <DefaultCounterCard

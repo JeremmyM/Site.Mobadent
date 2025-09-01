@@ -24,7 +24,7 @@ import MKTypography from "components/MKTypography";
 // Material Kit 2 React examples
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
-// Images
+// Images (usando las imágenes preexistentes y repitiéndolas)
 import team1 from "assets/images/team-5.jpg";
 import team2 from "assets/images/bruce-mars.jpg";
 import team3 from "assets/images/ivana-squares.jpg";
@@ -45,11 +45,11 @@ function Team() {
         <Grid container>
           <Grid item xs={12} md={8} sx={{ mb: 6 }}>
             <MKTypography variant="h3" color="white">
-              The Executive Team
+              Nuestro Equipo
             </MKTypography>
             <MKTypography variant="body2" color="white" opacity={0.8}>
-              There&apos;s nothing I really wanted to do in life that I wasn&apos;t able to get good
-              at. That&apos;s my skill.
+              Somos un grupo de profesionales apasionados y comprometidos con la excelencia, listos
+              para servir a la comunidad dental.
             </MKTypography>
           </Grid>
         </Grid>
@@ -57,40 +57,61 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team1}
-                name="Emma Roberts"
-                position={{ color: "info", label: "UI Designer" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                image={team1} // Reutilizamos team1
+                name="Jeremy"
+                position={{ color: "info", label: "Fundador y Director General" }}
+                description="Liderando la visión de Mobadent para ofrecer las mejores soluciones en el mercado dental."
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team2}
-                name="William Pearce"
-                position={{ color: "info", label: "Boss" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                image={team2} // Reutilizamos team2
+                name="Michael"
+                position={{ color: "info", label: "Jefe de Operaciones" }}
+                description="Asegurando que cada pedido se procese y se entregue con la máxima eficiencia y precisión."
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={team3}
-                name="Ivana Flow"
-                position={{ color: "info", label: "Athlete" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                image={team3} // Reutilizamos team3
+                name="Monica"
+                position={{ color: "info", label: "Gerente de Marketing" }}
+                description="Conectando nuestra marca con la comunidad y mostrando el valor de nuestros productos."
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={team4}
-                name="Marquez Garcia"
-                position={{ color: "info", label: "JS Developer" }}
-                description="Artist is a term applied to a person who engages in an activity deemed to be an art."
+                image={team4} // Reutilizamos team4
+                name="Eduardo"
+                position={{ color: "info", label: "Asesor Comercial" }}
+                description="Ofreciendo soporte y asesoría personalizada para ayudarte a encontrar los productos ideales."
+              />
+            </MKBox>
+          </Grid>
+          {/* Agrega a Gabriel y Gabriela, reutilizando las imágenes existentes */}
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={{ xs: 1, lg: 0 }}>
+              <HorizontalTeamCard
+                image={team1} // Reutilizamos team1
+                name="Gabriel"
+                position={{ color: "info", label: "Especialista en Logística" }}
+                description="Gestionando la distribución para que nuestros productos lleguen a tu puerta de manera rápida y segura."
+              />
+            </MKBox>
+          </Grid>
+          <Grid item xs={12} lg={6}>
+            <MKBox mb={{ xs: 1, lg: 0 }}>
+              <HorizontalTeamCard
+                image={team2} // Reutilizamos team2
+                name="Gabriela"
+                position={{ color: "info", label: "Atención al Cliente" }}
+                description="La voz amable detrás de Mobadent, siempre lista para resolver tus dudas y asistirte."
               />
             </MKBox>
           </Grid>
