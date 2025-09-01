@@ -1,0 +1,253 @@
+/**
+=========================================================
+* Material Kit 2 React - v2.1.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/material-kit-react
+* Copyright 2023 Creative Tim (https://www.creative-tim.com)
+
+Coded by www.creative-tim.com
+
+ =========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
+
+// @mui material components
+import Icon from "@mui/material/Icon";
+
+// @mui icons
+//import GitHubIcon from "@mui/icons-material/GitHub";
+
+// Pages
+import AboutUs from "layouts/pages/landing-pages/about-us";
+import ContactUs from "layouts/pages/landing-pages/contact-us";
+import Author from "layouts/pages/landing-pages/author";
+import SignIn from "layouts/pages/authentication/sign-in";
+
+// Sections
+import PageHeaders from "layouts/sections/page-sections/page-headers";
+import Features from "layouts/sections/page-sections/featuers";
+import Navbars from "layouts/sections/navigation/navbars";
+import NavTabs from "layouts/sections/navigation/nav-tabs";
+import Pagination from "layouts/sections/navigation/pagination";
+import Inputs from "layouts/sections/input-areas/inputs";
+import Forms from "layouts/sections/input-areas/forms";
+import Alerts from "layouts/sections/attention-catchers/alerts";
+import Modals from "layouts/sections/attention-catchers/modals";
+import TooltipsPopovers from "layouts/sections/attention-catchers/tooltips-popovers";
+import Avatars from "layouts/sections/elements/avatars";
+import Badges from "layouts/sections/elements/badges";
+import BreadcrumbsEl from "layouts/sections/elements/breadcrumbs";
+import Buttons from "layouts/sections/elements/buttons";
+import Dropdowns from "layouts/sections/elements/dropdowns";
+import ProgressBars from "layouts/sections/elements/progress-bars";
+import Toggles from "layouts/sections/elements/toggles";
+import Typography from "layouts/sections/elements/typography";
+
+const routes = [
+  {
+    name: "Páginas",
+    icon: <Icon>dashboard</Icon>,
+    columns: 1,
+    rowsPerColumn: 2,
+    collapse: [
+      {
+        name: "Información",
+        collapse: [
+          {
+            name: "Quiénes Somos",
+            route: "/pages/landing-pages/about-us",
+            component: <AboutUs />,
+          },
+          {
+            name: "Contáctanos",
+            route: "/pages/landing-pages/contact-us",
+            component: <ContactUs />,
+          },
+          {
+            name: "Nuestro Equipo",
+            route: "/pages/landing-pages/author",
+            component: <Author />,
+          },
+        ],
+      },
+      {
+        name: "Autenticación",
+        collapse: [
+          {
+            name: "Iniciar Sesión",
+            route: "/pages/authentication/sign-in",
+            component: <SignIn />,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Secciones",
+    icon: <Icon>view_day</Icon>,
+    collapse: [
+      {
+        name: "Secciones de Página",
+        description: "Explora todas las secciones del sitio",
+        dropdown: true,
+        collapse: [
+          {
+            name: "Encabezados de Página",
+            route: "/sections/page-sections/page-headers",
+            component: <PageHeaders />,
+          },
+          {
+            name: "Características",
+            route: "/sections/page-sections/features",
+            component: <Features />,
+          },
+        ],
+      },
+      {
+        name: "Navegación",
+        description: "Ve todas las opciones de navegación",
+        dropdown: true,
+        collapse: [
+          {
+            name: "Barras de Navegación",
+            route: "/sections/navigation/navbars",
+            component: <Navbars />,
+          },
+          {
+            name: "Pestañas",
+            route: "/sections/navigation/nav-tabs",
+            component: <NavTabs />,
+          },
+          {
+            name: "Paginación",
+            route: "/sections/navigation/pagination",
+            component: <Pagination />,
+          },
+        ],
+      },
+      {
+        name: "Áreas de Entrada",
+        description: "Ve todas las áreas de entrada",
+        dropdown: true,
+        collapse: [
+          {
+            name: "Campos de Entrada",
+            route: "/sections/input-areas/inputs",
+            component: <Inputs />,
+          },
+          {
+            name: "Formularios",
+            route: "/sections/input-areas/forms",
+            component: <Forms />,
+          },
+        ],
+      },
+      {
+        name: "Elementos de Atención",
+        description: "Ve todos los ejemplos",
+        dropdown: true,
+        collapse: [
+          {
+            name: "Alertas",
+            route: "/sections/attention-catchers/alerts",
+            component: <Alerts />,
+          },
+          {
+            name: "Ventanas Modales",
+            route: "/sections/attention-catchers/modals",
+            component: <Modals />,
+          },
+          {
+            name: "Tooltips y Popovers",
+            route: "/sections/attention-catchers/tooltips-popovers",
+            component: <TooltipsPopovers />,
+          },
+        ],
+      },
+      {
+        name: "Elementos",
+        description: "Ve todos los 32 ejemplos",
+        dropdown: true,
+        collapse: [
+          {
+            name: "Avatars",
+            route: "/sections/elements/avatars",
+            component: <Avatars />,
+          },
+          {
+            name: "Insignias",
+            route: "/sections/elements/badges",
+            component: <Badges />,
+          },
+          {
+            name: "Breadcrumbs",
+            route: "/sections/elements/breadcrumbs",
+            component: <BreadcrumbsEl />,
+          },
+          {
+            name: "Botones",
+            route: "/sections/elements/buttons",
+            component: <Buttons />,
+          },
+          {
+            name: "Menús Desplegables",
+            route: "/sections/elements/dropdowns",
+            component: <Dropdowns />,
+          },
+          {
+            name: "Barras de Progreso",
+            route: "/sections/elements/progress-bars",
+            component: <ProgressBars />,
+          },
+          {
+            name: "Interruptores",
+            route: "/sections/elements/toggles",
+            component: <Toggles />,
+          },
+          {
+            name: "Tipografía",
+            route: "/sections/elements/typography",
+            component: <Typography />,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Soporte",
+    icon: <Icon>article</Icon>,
+    collapse: [
+      {
+        name: "Preguntas Frecuentes",
+        description: "Encuentra respuestas a las preguntas más comunes sobre nuestros productos.",
+        href: "https://www.creative-tim.com/learning-lab/react/quick-start/material-kit/", // Reemplaza con tu enlace de FAQs
+      },
+      {
+        name: "Nuestras Marcas",
+        description: "Conoce las marcas de alta calidad que distribuimos.",
+        href: "https://www.creative-tim.com/learning-lab/react/colors/material-kit/", // Reemplaza con tu enlace de marcas
+      },
+      {
+        name: "Políticas de Envío",
+        description: "Información detallada sobre nuestros envíos y entregas.",
+        href: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/", // Reemplaza con tu enlace de envíos
+      },
+      {
+        name: "Nuestra Visión",
+        description: "Conoce más sobre la misión de nuestra empresa.",
+        href: "https://www.creative-tim.com/learning-lab/react/datepicker/material-kit/", // Reemplaza con tu enlace de visión
+      },
+    ],
+  },
+  /*
+  {
+    name: "GitHub",
+    icon: <GitHubIcon />,
+    href: "https://www.github.com/creativetimofficial/material-kit-react", // Puedes cambiar este enlace a tu propio repositorio
+  },
+*/
+];
+
+export default routes;
