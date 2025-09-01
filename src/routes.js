@@ -68,6 +68,7 @@ const routes = [
       },
     ],
   },
+  /*
   {
     name: "Soporte",
     icon: <Icon>article</Icon>,
@@ -94,6 +95,7 @@ const routes = [
       },
     ],
   },
+  */
 ];
 
 export default routes;
