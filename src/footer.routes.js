@@ -1,89 +1,89 @@
 // @mui icons
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import YouTubeIcon from "@mui/icons-material/YouTube";
+import InstagramIcon from "@mui/icons-material/Instagram"; // Agregado para Instagram
+import WhatsAppIcon from "@mui/icons-material/WhatsApp"; // Agregado para WhatsApp
 
 // Material Kit 2 React components
 import MKTypography from "components/MKTypography";
 
 // Images
-import logoCT from "assets/images/logo-ct-dark.png";
+import mobadentLogo from "assets/images/mobadent-logo.png"; // Reemplaza con la ruta de tu logo
 
 const date = new Date().getFullYear();
 
 export default {
   brand: {
-    name: "Material Kit 2",
-    image: logoCT,
+    name: "Mobadent",
+    image: mobadentLogo,
     route: "/",
   },
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "https://www.facebook.com/CreativeTim/",
+      link: "https://www.facebook.com/tu_pagina_mobadent",
     },
     {
       icon: <TwitterIcon />,
-      link: "https://twitter.com/creativetim",
+      link: "https://twitter.com/tu_usuario_mobadent",
     },
     {
-      icon: <GitHubIcon />,
-      link: "https://github.com/creativetimofficial",
+      icon: <InstagramIcon />,
+      link: "https://www.instagram.com/tu_perfil_mobadent",
     },
     {
-      icon: <YouTubeIcon />,
-      link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
+      icon: <WhatsAppIcon />,
+      link: "https://wa.me/593960044111",
     },
   ],
   menus: [
     {
-      name: "company",
+      name: "Compañía",
       items: [
-        { name: "about us", href: "https://www.creative-tim.com/presentation" },
-        { name: "freebies", href: "https://www.creative-tim.com/templates/free" },
-        { name: "premium tools", href: "https://www.creative-tim.com/templates/premium" },
-        { name: "blog", href: "https://www.creative-tim.com/blog" },
+        { name: "Quiénes Somos", href: "/pages/landing-pages/about-us" },
+        { name: "Catálogo", href: "/catalogo" }, // Enlace a tu catálogo de productos
+        { name: "Nuestro Blog", href: "/blog" },
+        { name: "Contacto", href: "/pages/landing-pages/contact-us" },
       ],
     },
     {
-      name: "resources",
+      name: "Productos",
       items: [
-        { name: "illustrations", href: "https://iradesign.io/" },
-        { name: "bits & snippets", href: "https://www.creative-tim.com/bits" },
-        { name: "affiliate program", href: "https://www.creative-tim.com/affiliates/new" },
+        { name: "Equipos y Herramientas", href: "/productos/equipos" },
+        { name: "Materiales", href: "/productos/materiales" },
+        { name: "Ortodoncia", href: "/productos/ortodoncia" },
+        { name: "Insumos Desechables", href: "/productos/insumos" },
       ],
     },
     {
-      name: "help & support",
+      name: "Ayuda y Soporte",
       items: [
-        { name: "contact us", href: "https://www.creative-tim.com/contact-us" },
-        { name: "knowledge center", href: "https://www.creative-tim.com/knowledge-center" },
-        { name: "custom development", href: "https://services.creative-tim.com/" },
-        { name: "sponsorships", href: "https://www.creative-tim.com/sponsorships" },
+        { name: "Contáctanos", href: "/pages/landing-pages/contact-us" },
+        { name: "Preguntas Frecuentes (FAQ)", href: "/faq" },
+        { name: "Políticas de Envío", href: "/politicas-envio" },
       ],
     },
     {
-      name: "legal",
+      name: "Legal",
       items: [
-        { name: "terms & conditions", href: "https://www.creative-tim.com/terms" },
-        { name: "privacy policy", href: "https://www.creative-tim.com/privacy" },
-        { name: "licenses (EULA)", href: "https://www.creative-tim.com/license" },
+        { name: "Términos y Condiciones", href: "/legal/terminos-condiciones" },
+        { name: "Política de Privacidad", href: "/legal/politica-privacidad" },
+        { name: "Licencias", href: "/legal/licencias" },
       ],
     },
   ],
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
-      All rights reserved. Copyright &copy; {date} Material Kit by{" "}
+      Todos los derechos reservados. Copyright &copy; {date} Mobadent por{" "}
       <MKTypography
         component="a"
-        href="https://www.creative-tim.com"
+        href="#"
         target="_blank"
         rel="noreferrer"
         variant="button"
         fontWeight="regular"
       >
-        Creative Tim
+        Mobadent
       </MKTypography>
       .
     </MKTypography>
