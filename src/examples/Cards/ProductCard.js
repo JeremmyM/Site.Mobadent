@@ -22,31 +22,79 @@ function ProductCard({ image, name, description, onAddToCart }) {
         flexDirection: "column",
         alignItems: "center",
         textAlign: "center",
+        minHeight: "450px",
+        justifyContent: "space-between",
       }}
     >
       <MKBox
-        component="img"
-        src={image}
-        alt={name}
-        borderRadius="lg"
-        width="100%"
-        sx={{ maxHeight: "200px", objectFit: "cover" }}
-      />
-      <MKBox pt={2}>
-        <MKTypography variant="h5" color="dark" fontWeight="bold">
+        sx={{
+          width: "100%",
+          height: "200px", // Altura fija para el contenedor de la imagen
+          mb: 2,
+          display: "flex", // Para centrar la imagen
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <MKBox
+          component="img"
+          src={image}
+          alt={name}
+          borderRadius="lg"
+          sx={{
+            width: "100%",
+            maxHeight: "100%",
+            // **** CAMBIO CLAVE AQUI ****
+            objectFit: "contain",
+          }}
+        />
+      </MKBox>
+      <MKBox
+        sx={{
+          height: "120px",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          width: "100%",
+          justifyContent: "flex-start",
+        }}
+      >
+        <MKTypography
+          variant="h5"
+          color="dark"
+          fontWeight="bold"
+          mb={1}
+          sx={{
+            minHeight: "40px",
+            overflow: "hidden",
+            textOverflow: "ellipsis",
+            display: "-webkit-box",
+            WebkitLineClamp: 2,
+            WebkitBoxOrient: "vertical",
+          }}
+        >
           {name}
         </MKTypography>
-        <MKTypography variant="body2" color="text" my={1}>
+        <MKTypography
+          variant="body2"
+          color="text"
+          my={1}
+          sx={{
+            minHeight: "60px",
+            maxHeight: "90px",
+            overflow: "hidden",
+            textOverflow: "ellipsis",
+            display: "-webkit-box",
+            WebkitLineClamp: 3,
+            WebkitBoxOrient: "vertical",
+          }}
+        >
           {description}
         </MKTypography>
-        {/* Aquí puedes mostrar otra información si lo deseas, como la categoría o la marca */}
-        {/* <MKTypography variant="h6" color="primary" fontWeight="bold">
-          Marca: {vendor}
-        </MKTypography> */}
-        <MKButton variant="gradient" color="primary" sx={{ mt: 2 }} onClick={onAddToCart}>
-          Ver Detalles 👁️
-        </MKButton>
       </MKBox>
+      <MKButton variant="gradient" color="primary" sx={{ mt: "auto" }} onClick={onAddToCart}>
+        Ver Detalles 👁️
+      </MKButton>
     </MKBox>
   );
 }
