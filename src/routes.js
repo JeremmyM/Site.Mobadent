@@ -23,12 +23,19 @@ import Author from "layouts/pages/landing-pages/author";
 import SignIn from "layouts/pages/authentication/sign-in";
 import Presentation from "layouts/pages/presentation"; // Importa Presentation aquí
 
+import Productos from "layouts/pages/landing-pages/productos"; // Asegúrate de que la ruta sea correcta
+
 const routes = [
   {
     name: "Inicio",
     icon: <Icon>home</Icon>,
     route: "/",
     component: <Presentation />,
+  },
+  {
+    name: "Productos", // Nombre que aparecerá en el menú
+    route: "/pages/productos", // La URL de tu nueva página
+    component: <Productos />, // El componente que se mostrará
   },
   {
     name: "Páginas",

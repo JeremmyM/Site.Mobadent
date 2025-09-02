@@ -1,0 +1,1244 @@
+[
+  {
+    "orden": 1,
+    "id": "BIFI002",
+    "productCode": "BIFI002",
+    "name": "BIFIX® SE",
+    "category": "Cementos",
+    "slug": "bifix-se",
+    "vendor": "VOCO",
+    "originalPrice": "",
+    "image": "/products/main/BIFI002.jpg",
+    "gallery": [
+      "/products/main/BIFI002.jpg",
+      "/products/main/BIFI002.jpg"
+    ],
+    "description": "Pulido preciso con pasta diamantada en zonas difíciles",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "BIFIX® SE",
+    "meta": "Cemento de resina para postes, coronas, puentes e inlays/onlays."
+  },
+  {
+    "orden": 2,
+    "id": "MERO003",
+    "productCode": "MERO003",
+    "name": "MERON®",
+    "category": "Cementos",
+    "slug": "meron-",
+    "vendor": "VOCO",
+    "originalPrice": "",
+    "image": "/products/main/MERO003.jpg",
+    "gallery": [
+      "/products/main/MERO003.jpg",
+      "/products/main/MERO003.jpg"
+    ],
+    "description": "Pulido preciso con pasta diamantada en zonas difíciles",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "MERON®",
+    "meta": "Cemento de resina autoadhesivo y de curado dual para restauraciones indirectas."
+  },
+  {
+    "orden": 3,
+    "id": "RELY004",
+    "productCode": "RELY004",
+    "name": "RELYX U200",
+    "category": "Cementos",
+    "slug": "relyx-u200",
+    "vendor": "3M",
+    "originalPrice": "",
+    "image": "/products/main/RELY004.jpg",
+    "gallery": [
+      "/products/main/RELY004.jpg"
+    ],
+    "description": "Acabado fino en áreas profundas",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "RELYX U200",
+    "meta": "Cemento temporal sin eugenol, indicado para coronas y puentes provisionales."
+  },
+  {
+    "orden": 4,
+    "id": "RELY005",
+    "productCode": "RELY005",
+    "name": "RELYX™ TEMP NE",
+    "category": "Cementos",
+    "slug": "relyx-temp-ne",
+    "vendor": "3M",
+    "originalPrice": "",
+    "image": "/products/main/RELY005.jpg",
+    "gallery": [
+      "/products/main/RELY005.jpg"
+    ],
+    "description": "Grano fino, brillo final",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "RELYX™ TEMP NE",
+    "meta": "Cemento de resina para carillas, ofrece excelente estabilidad de color."
+  },
+  {
+    "orden": 5,
+    "id": "RELY006",
+    "productCode": "RELY006",
+    "name": "RELYX™ VENEER CEMENT",
+    "category": "Cementos",
+    "slug": "relyx-veneer-cement",
+    "vendor": "3M",
+    "originalPrice": "",
+    "image": "/products/main/RELY006.jpg",
+    "gallery": [
+      "/products/main/RELY006.jpg"
+    ],
+    "description": "Sistema de 3 pasos para cerámica y metal",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "RELYX™ VENEER CEMENT",
+    "meta": "Cemento de resina de curado dual para reconstrucción de muñones y cementación de postes."
+  },
+  {
+    "orden": 6,
+    "id": "PARA007",
+    "productCode": "PARA007",
+    "name": "PARACORE®",
+    "category": "Cementos",
+    "slug": "paracore-",
+    "vendor": "COLTENE",
+    "originalPrice": "",
+    "image": "/products/main/PARA007.jpg",
+    "gallery": [
+      "/products/main/PARA007.jpg"
+    ],
+    "description": "Fresas para pulir con forma de balón, ideales para acabado de resina. Se venden por unidad.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "PARACORE®",
+    "meta": "Cemento de resina de curado dual para restauraciones indirectas de cerámica, resina y metal."
+  },
+  {
+    "orden": 7,
+    "id": "ALLC008",
+    "productCode": "ALLC008",
+    "name": "ALLCEM™",
+    "category": "Cementos",
+    "slug": "allcem-",
+    "vendor": "FGM",
+    "originalPrice": "",
+    "image": "/products/main/ALLC008.jpg",
+    "gallery": [
+      "/products/main/ALLC008.jpg"
+    ],
+    "description": "Kit de fresas doradas para pulido de resina, marca FAVA.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "ALLCEM™",
+    "meta": "Cemento de ionómero de vidrio para cementación de coronas, puentes e inlays."
+  },
+  {
+    "orden": 8,
+    "id": "FUJI009",
+    "productCode": "FUJI009",
+    "name": "FUJI GOLD LABEL 1",
+    "category": "Cementos",
+    "slug": "fuji-gold-label-1",
+    "vendor": "GC",
+    "originalPrice": "",
+    "image": "/products/main/FUJI009.jpg",
+    "gallery": [
+      "/products/main/FUJI009.jpg"
+    ],
+    "description": "Pulimento para resina con partículas de diamante, sabor menta, en concentraciones 0.5 y 1.0.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "FUJI GOLD LABEL 1",
+    "meta": "Cemento de ionómero de vidrio para restauración de clase I, II, III y V."
+  },
+  {
+    "orden": 9,
+    "id": "FUJI010",
+    "productCode": "FUJI010",
+    "name": "FUJI GOLD LABEL 2",
+    "category": "Cementos",
+    "slug": "fuji-gold-label-2",
+    "vendor": "GC",
+    "originalPrice": "",
+    "image": "/products/main/FUJI010.jpg",
+    "gallery": [
+      "/products/main/FUJI010.jpg"
+    ],
+    "description": "Sellante de composite para sellado marginal, en presentación individual.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "FUJI GOLD LABEL 2",
+    "meta": "Ionómero de vidrio de alta resistencia para restauraciones posteriores."
+  },
+  {
+    "orden": 10,
+    "id": "FUJI011",
+    "productCode": "FUJI011",
+    "name": "FUJI GOLD LABEL 9",
+    "category": "Cementos",
+    "slug": "fuji-gold-label-9",
+    "vendor": "GC",
+    "originalPrice": "",
+    "image": "/products/main/FUJI011.jpg",
+    "gallery": [
+      "/products/main/FUJI011.jpg"
+    ],
+    "description": "Barrera gingival fotopolimerizable, ideal para procedimientos de blanqueamiento.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "FUJI GOLD LABEL 9",
+    "meta": "Ionómero de vidrio de base y liner fotopolimerizable."
+  },
+  {
+    "orden": 11,
+    "id": "FUJI012",
+    "productCode": "FUJI012",
+    "name": "FUJI LINING™ LC",
+    "category": "Cementos",
+    "slug": "fuji-lining-lc",
+    "vendor": "GC",
+    "originalPrice": "",
+    "image": "/products/main/FUJI012.jpg",
+    "gallery": [
+      "/products/main/FUJI012.jpg"
+    ],
+    "description": "Gel grabador de ácido fosfórico al 37%, pack con 3 jeringas.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "FUJI LINING™ LC",
+    "meta": "Resina compuesta microhíbrida para restauraciones estéticas."
+  },
+  {
+    "orden": 12,
+    "id": "VIT-013",
+    "productCode": "VIT-013",
+    "name": "VIT-L-ESCENCE™",
+    "category": "Composites",
+    "slug": "vit-l-escence-",
+    "vendor": "ULTRADENT",
+    "originalPrice": "",
+    "image": "/products/main/VIT-013.jpg",
+    "gallery": [
+      "/products/main/VIT-013.jpg"
+    ],
+    "description": "Gel grabador de ácido fosfórico al 35%, en presentación de 30ml.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "VIT-L-ESCENCE™",
+    "meta": "Resina compuesta universal para restauraciones directas."
+  },
+  {
+    "orden": 13,
+    "id": "FORM014",
+    "productCode": "FORM014",
+    "name": "FORMA®",
+    "category": "Composites",
+    "slug": "forma-",
+    "vendor": "ULTRADENT",
+    "originalPrice": "",
+    "image": "/products/main/FORM014.jpg",
+    "gallery": [
+      "/products/main/FORM014.jpg"
+    ],
+    "description": "Ácido fosfórico al 37%, en gel, presentación de 4g.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "FORMA®",
+    "meta": "Resina nanohíbrida universal para restauraciones anteriores y posteriores."
+  },
+  {
+    "orden": 14,
+    "id": "RESI015",
+    "productCode": "RESI015",
+    "name": "RESINA GRANDIO 4g",
+    "category": "Composites",
+    "slug": "resina-grandio-4g",
+    "vendor": "VOCO",
+    "originalPrice": "",
+    "image": "/products/main/RESI015.jpg",
+    "gallery": [
+      "/products/main/RESI015.jpg"
+    ],
+    "description": "Agente de unión para cerámica y composite, presentación de 1.2ml.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "RESINA GRANDIO 4g",
+    "meta": "Resina compuesta universal para restauraciones estéticas."
+  },
+  {
+    "orden": 15,
+    "id": "POLO016",
+    "productCode": "POLO016",
+    "name": "POLOFIL SUPRA®",
+    "category": "Composites",
+    "slug": "polofil-supra-",
+    "vendor": "VOCO",
+    "originalPrice": "",
+    "image": "/products/main/POLO016.jpg",
+    "gallery": [
+      "/products/main/POLO016.jpg"
+    ],
+    "description": "Ácido grabador de 3M, compatible con sistemas adhesivos.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "POLOFIL SUPRA®",
+    "meta": "Resina nanohíbrida para restauraciones estéticas."
+  },
+  {
+    "orden": 16,
+    "id": "POLO017",
+    "productCode": "POLO017",
+    "name": "POLOFIL NHT®",
+    "category": "Composites",
+    "slug": "polofil-nht-",
+    "vendor": "VOCO",
+    "originalPrice": "",
+    "image": "/products/main/POLO017.jpg",
+    "gallery": [
+      "/products/main/POLO017.jpg"
+    ],
+    "description": "Ácido fluorhídrico para grabado de porcelana, presentación individual.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "POLOFIL NHT®",
+    "meta": "Resina compuesta de colores para restauraciones en dientes temporales."
+  },
+  {
+    "orden": 17,
+    "id": "TWIN018",
+    "productCode": "TWIN018",
+    "name": "TWINKY STAR™",
+    "category": "Composites",
+    "slug": "twinky-star-",
+    "vendor": "VOCO",
+    "originalPrice": "",
+    "image": "/products/main/TWIN018.jpg",
+    "gallery": [
+      "/products/main/TWIN018.jpg"
+    ],
+    "description": "Agujas dentales cortas, alta penetración, marca Septodont.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "TWINKY STAR™",
+    "meta": "Resina universal nanorrellena para restauraciones anteriores y posteriores."
+  },
+  {
+    "orden": 18,
+    "id": "FILT019",
+    "productCode": "FILT019",
+    "name": "FILTEK™ Z350 XT",
+    "category": "Composites",
+    "slug": "filtek-z350-xt",
+    "vendor": "3M",
+    "originalPrice": "",
+    "image": "/products/main/FILT019.jpg",
+    "gallery": [
+      "/products/main/FILT019.jpg"
+    ],
+    "description": "Suturas de seda negra con aguja curva cortante de 19mm.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "FILTEK™ Z350 XT",
+    "meta": "Resina compuesta empacable para restauraciones posteriores."
+  },
+  {
+    "orden": 19,
+    "id": "FILT020",
+    "productCode": "FILT020",
+    "name": "FILTEK™ P60 POSTERIOR",
+    "category": "Composites",
+    "slug": "filtek-p60-posterior",
+    "vendor": "3M",
+    "originalPrice": "",
+    "image": "/products/main/FILT020.jpg",
+    "gallery": [
+      "/products/main/FILT020.jpg"
+    ],
+    "description": "Agujas finas para anestesia pediátrica, calibre 30G.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "FILTEK™ P60 POSTERIOR",
+    "meta": "Resina fluida que permite restauraciones posteriores de hasta 4 mm en una sola capa."
+  },
+  {
+    "orden": 20,
+    "id": "FILT021",
+    "productCode": "FILT021",
+    "name": "FILTEK™ BULK FILL",
+    "category": "Composites",
+    "slug": "filtek-bulk-fill",
+    "vendor": "3M",
+    "originalPrice": "",
+    "image": "/products/main/FILT021.jpg",
+    "gallery": [
+      "/products/main/FILT021.jpg"
+    ],
+    "description": "Agujas largas calibre 27G, presentación de 100 unidades.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "FILTEK™ BULK FILL",
+    "meta": "Sellador de fosetas y fisuras fotopolimerizable."
+  },
+  {
+    "orden": 21,
+    "id": "CLIN022",
+    "productCode": "CLIN022",
+    "name": "CLINPRO™ SEALANT",
+    "category": "Composites",
+    "slug": "clinpro-sealant",
+    "vendor": "3M",
+    "originalPrice": "",
+    "image": "/products/main/CLIN022.jpg",
+    "gallery": [
+      "/products/main/CLIN022.jpg"
+    ],
+    "description": "Abreboca doble para adultos, marca Maquira.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "CLINPRO™ SEALANT",
+    "meta": "Material de restauración a base de cerámica y resina para coronas, puentes e inlays."
+  },
+  {
+    "orden": 22,
+    "id": "CERA023",
+    "productCode": "CERA023",
+    "name": "CERAMAGE®",
+    "category": "Composites",
+    "slug": "ceramage-",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/CERA023.jpg",
+    "gallery": [
+      "/products/main/CERA023.jpg"
+    ],
+    "description": "Gasa estéril para uso odontológico, marca Magic-Dent.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "CERAMAGE®",
+    "meta": "Resina compuesta para restauraciones estéticas."
+  },
+  {
+    "orden": 23,
+    "id": "RESI024",
+    "productCode": "RESI024",
+    "name": "RESINA SOLARE SOLARE P",
+    "category": "Composites",
+    "slug": "resina-solare-solare-p",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/RESI024.jpg",
+    "gallery": [
+      "/products/main/RESI024.jpg"
+    ],
+    "description": "Retractor transparente reutilizable para adultos.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "RESINA SOLARE SOLARE P",
+    "meta": "Resina compuesta posterior que ofrece resistencia y un pulido duradero."
+  },
+  {
+    "orden": 24,
+    "id": "PRIM025",
+    "productCode": "PRIM025",
+    "name": "PrimmaART™",
+    "category": "Composites",
+    "slug": "primmaart-",
+    "vendor": "FGM",
+    "originalPrice": "",
+    "image": "/products/main/PRIM025.jpg",
+    "gallery": [
+      "/products/main/PRIM025.jpg"
+    ],
+    "description": "Versión infantil del KleerView, cómodo y esterilizable.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "PrimmaART™",
+    "meta": "Resina microhíbrida para restauraciones estéticas."
+  },
+  {
+    "orden": 25,
+    "id": "BRIL026",
+    "productCode": "BRIL026",
+    "name": "BRILLANT®",
+    "category": "Composites",
+    "slug": "brillant-",
+    "vendor": "FGM",
+    "originalPrice": "",
+    "image": "/products/main/BRIL026.jpg",
+    "gallery": [
+      "/products/main/BRIL026.jpg"
+    ],
+    "description": "Lidocaína al 2% con epinefrina, 50 cartuchos de vidrio.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "BRILLANT®",
+    "meta": "Resina compuesta universal para restauraciones."
+  },
+  {
+    "orden": 26,
+    "id": "LLIS027",
+    "productCode": "LLIS027",
+    "name": "LLIS®",
+    "category": "Composites",
+    "slug": "llis-",
+    "vendor": "FGM",
+    "originalPrice": "",
+    "image": "/products/main/LLIS027.jpg",
+    "gallery": [
+      "/products/main/LLIS027.jpg"
+    ],
+    "description": "Mepivacaína sin vasoconstrictor, presentación individual.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "LLIS®",
+    "meta": "Resina nanohíbrida para restauraciones estéticas y funcionales."
+  },
+  {
+    "orden": 27,
+    "id": "NEOF028",
+    "productCode": "NEOF028",
+    "name": "NEOFIL®",
+    "category": "Composites",
+    "slug": "neofil-",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/NEOF028.jpg",
+    "gallery": [
+      "/products/main/NEOF028.jpg"
+    ],
+    "description": "Caja con 50 carpules de Scandonest 3%, sin epinefrina.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "NEOFIL®",
+    "meta": "Resina compuesta de nanorelleno para restauraciones."
+  },
+  {
+    "orden": 28,
+    "id": "OPAL029",
+    "productCode": "OPAL029",
+    "name": "OPALLIS FLOW®",
+    "category": "Composites",
+    "slug": "opallis-flow-",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/OPAL029.jpg",
+    "gallery": [
+      "/products/main/OPAL029.jpg"
+    ],
+    "description": "Papel bicolor recto, marca Becht, caja con 12 blocks.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "OPALLIS FLOW®",
+    "meta": "Resina fluida para restauraciones de clase III y V, y como base o liner."
+  },
+  {
+    "orden": 29,
+    "id": "LIMA030",
+    "productCode": "LIMA030",
+    "name": "LIMAS TDK K-FILE",
+    "category": "Endodoncia",
+    "slug": "limas-tdk-k-file",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/LIMA030.jpg",
+    "gallery": [
+      "/products/main/LIMA030.jpg"
+    ],
+    "description": "Papel ultradelgado para oclusión precisa, 280 láminas.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "LIMAS TDK K-FILE",
+    "meta": "Limas de acero inoxidable tipo K para instrumentación manual de conductos radiculares."
+  },
+  {
+    "orden": 30,
+    "id": "LIMA031",
+    "productCode": "LIMA031",
+    "name": "LIMAS M-ACCESS K-FILE",
+    "category": "Endodoncia",
+    "slug": "limas-m-access-k-file",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/LIMA031.jpg",
+    "gallery": [
+      "/products/main/LIMA031.jpg"
+    ],
+    "description": "Gel con nitrato de potasio y fluoruro de sodio, uso profesional.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "LIMAS M-ACCESS K-FILE",
+    "meta": "Limas manuales para acceso y permeabilidad en conductos."
+  },
+  {
+    "orden": 31,
+    "id": "LIMA032",
+    "productCode": "LIMA032",
+    "name": "LIMA K-FLEXOFILE",
+    "category": "Endodoncia",
+    "slug": "lima-k-flexofile",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/LIMA032.jpg",
+    "gallery": [
+      "/products/main/LIMA032.jpg"
+    ],
+    "description": "Gel con nitrato de potasio y flúor, alivio inmediato.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "LIMA K-FLEXOFILE",
+    "meta": "Limas de acero inoxidable con alta flexibilidad para conductos curvos."
+  },
+  {
+    "orden": 32,
+    "id": "LIMA033",
+    "productCode": "LIMA033",
+    "name": "LIMAS READY STEEL",
+    "category": "Endodoncia",
+    "slug": "limas-ready-steel",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/LIMA033.jpg",
+    "gallery": [
+      "/products/main/LIMA033.jpg"
+    ],
+    "description": "Gel blanqueador para dientes no vitales, técnica “walking bleach”.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "LIMAS READY STEEL",
+    "meta": "Limas de acero inoxidable preconformadas para instrumentación."
+  },
+  {
+    "orden": 33,
+    "id": "LIMA034",
+    "productCode": "LIMA034",
+    "name": "LIMAS NITIFLEX®",
+    "category": "Endodoncia",
+    "slug": "limas-nitiflex-",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/LIMA034.jpg",
+    "gallery": [
+      "/products/main/LIMA034.jpg"
+    ],
+    "description": "Blanqueamientos en consultorio, 40% peróxido de hidrógeno.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "LIMAS NITIFLEX®",
+    "meta": "Limas de Níquel-Titanio (Ni-Ti) para instrumentación flexible de conductos."
+  },
+  {
+    "orden": 34,
+    "id": "LIMA035",
+    "productCode": "LIMA035",
+    "name": "LIMAS KENDO ISO",
+    "category": "Endodoncia",
+    "slug": "limas-kendo-iso",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/LIMA035.jpg",
+    "gallery": [
+      "/products/main/LIMA035.jpg"
+    ],
+    "description": "Pasta abrasiva para manchas de fluorosis, con carburo de silicio.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "LIMAS KENDO ISO",
+    "meta": "Limas de Níquel-Titanio para instrumentación manual en endodoncia."
+  },
+  {
+    "orden": 35,
+    "id": "LIMA036",
+    "productCode": "LIMA036",
+    "name": "LIMAS WaveOne GOLD®",
+    "category": "Endodoncia",
+    "slug": "limas-waveone-gold-",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/LIMA036.jpg",
+    "gallery": [
+      "/products/main/LIMA036.jpg"
+    ],
+    "description": "Blanqueamientos clínico con peróxido de hidrógeno y barrera gingival.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "LIMAS WaveOne GOLD®",
+    "meta": "Limas rotatorias de Ni-Ti para instrumentación reciprocante en endodoncia."
+  },
+  {
+    "orden": 36,
+    "id": "CONS037",
+    "productCode": "CONS037",
+    "name": "CONSEPSIS™",
+    "category": "Endodoncia",
+    "slug": "consepsis-",
+    "vendor": "ULTRADENT",
+    "originalPrice": "",
+    "image": "/products/main/CONS037.jpg",
+    "gallery": [
+      "/products/main/CONS037.jpg"
+    ],
+    "description": "Kit de recarga con 4 jeringas de gel blanqueador al 20%.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "CONSEPSIS™",
+    "meta": "Solución desinfectante de clorhexidina al 2% para irrigación de conductos."
+  },
+  {
+    "orden": 37,
+    "id": "SOLU038",
+    "productCode": "SOLU038",
+    "name": "SOLUCION EDTA 18%™",
+    "category": "Endodoncia",
+    "slug": "solucion-edta-18-",
+    "vendor": "ULTRADENT",
+    "originalPrice": "",
+    "image": "/products/main/SOLU038.jpg",
+    "gallery": [
+      "/products/main/SOLU038.jpg"
+    ],
+    "description": "Kit de bandejas precargadas con gel al 10%, uso ambulatorio.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "SOLUCION EDTA 18%™",
+    "meta": "Solución quelante para ensanchar y limpiar conductos."
+  },
+  {
+    "orden": 38,
+    "id": "HIPO039",
+    "productCode": "HIPO039",
+    "name": "HIPOCLORITO DE SOCIO (NaOCl)",
+    "category": "Endodoncia",
+    "slug": "hipoclorito-de-socio-naocl-",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/HIPO039.jpg",
+    "gallery": [
+      "/products/main/HIPO039.jpg"
+    ],
+    "description": "Polvo fino para preparar cemento con eugenol, frasco de 175g.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "HIPOCLORITO DE SOCIO (NaOCl)",
+    "meta": "Solución irrigadora con acción bactericida para desinfección de conductos."
+  },
+  {
+    "orden": 39,
+    "id": "ENDO040",
+    "productCode": "ENDO040",
+    "name": "ENDO-EZE™",
+    "category": "Endodoncia",
+    "slug": "endo-eze-",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/ENDO040.jpg",
+    "gallery": [
+      "/products/main/ENDO040.jpg"
+    ],
+    "description": "Hojas estériles de acero inoxidable, caja con 100 unidades.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "ENDO-EZE™",
+    "meta": "Sistema de irrigación endodóntica."
+  },
+  {
+    "orden": 40,
+    "id": "CAPI041",
+    "productCode": "CAPI041",
+    "name": "CAPILLARY TIP",
+    "category": "Endodoncia",
+    "slug": "capillary-tip",
+    "vendor": "ULTRADENT",
+    "originalPrice": "",
+    "image": "/products/main/CAPI041.jpg",
+    "gallery": [
+      "/products/main/CAPI041.jpg"
+    ],
+    "description": "Gel hemostático de cloruro de aluminio al 25%, ideal para zonas estéticas.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "CAPILLARY TIP",
+    "meta": "Puntas capilares para la aplicación precisa de materiales en conductos."
+  },
+  {
+    "orden": 41,
+    "id": "NAVI042",
+    "productCode": "NAVI042",
+    "name": "NAVITIP™",
+    "category": "Endodoncia",
+    "slug": "navitip-",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/NAVI042.jpg",
+    "gallery": [
+      "/products/main/NAVI042.jpg"
+    ],
+    "description": "Gel hemostático de sulfato férrico, presentación individual.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "NAVITIP™",
+    "meta": "Puntas de irrigación endodóntica flexibles para alcanzar el ápice."
+  },
+  {
+    "orden": 42,
+    "id": "FRES043",
+    "productCode": "FRES043",
+    "name": "FRESAS GATES GLIDDEN",
+    "category": "Endodoncia",
+    "slug": "fresas-gates-glidden",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/FRES043.jpg",
+    "gallery": [
+      "/products/main/FRES043.jpg"
+    ],
+    "description": "Sutura de seda negra 3/0, esterilizada, con aguja curva.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "FRESAS GATES GLIDDEN",
+    "meta": "Fresas para ensanchamiento del tercio coronal de conductos."
+  },
+  {
+    "orden": 43,
+    "id": "FRES044",
+    "productCode": "FRES044",
+    "name": "FRESAS PEESO",
+    "category": "Endodoncia",
+    "slug": "fresas-peeso",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/FRES044.jpg",
+    "gallery": [
+      "/products/main/FRES044.jpg"
+    ],
+    "description": "Tiras abrasivas de 4mm para acabado interproximal, marca Profident.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "FRESAS PEESO",
+    "meta": "Fresas para conformación del tercio coronal y apertura del conducto."
+  },
+  {
+    "orden": 44,
+    "id": "FRES045",
+    "productCode": "FRES045",
+    "name": "FRESA ENDO Z",
+    "category": "Endodoncia",
+    "slug": "fresa-endo-z",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/FRES045.jpg",
+    "gallery": [
+      "/products/main/FRES045.jpg"
+    ],
+    "description": "Tiras flexibles de poliéster para contorneado y pulido, paquete surtido.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "FRESA ENDO Z",
+    "meta": "Fresa de carburo de tungsteno para apertura de la cámara pulpar."
+  },
+  {
+    "orden": 45,
+    "id": "PARA046",
+    "productCode": "PARA046",
+    "name": "PARAPOST® XP",
+    "category": "Endodoncia",
+    "slug": "parapost-xp",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/PARA046.jpg",
+    "gallery": [
+      "/products/main/PARA046.jpg"
+    ],
+    "description": "Tiras abrasivas de 4mm, doble cara, marca Coltene.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "PARAPOST® XP",
+    "meta": "Postes de acero inoxidable para la reconstrucción de muñones."
+  },
+  {
+    "orden": 46,
+    "id": "PARA047",
+    "productCode": "PARA047",
+    "name": "PARAPOST® XT",
+    "category": "Endodoncia",
+    "slug": "parapost-xt",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/PARA047.jpg",
+    "gallery": [
+      "/products/main/PARA047.jpg"
+    ],
+    "description": "Tira larga de 125mm y 4mm de ancho, para acabado interproximal.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "PARAPOST® XT",
+    "meta": "Postes de titanio para soporte de la restauración."
+  },
+  {
+    "orden": 47,
+    "id": "PARA048",
+    "productCode": "PARA048",
+    "name": "PARAPOST® XH",
+    "category": "Endodoncia",
+    "slug": "parapost-xh",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/PARA048.jpg",
+    "gallery": [
+      "/products/main/PARA048.jpg"
+    ],
+    "description": "Tiras de 6mm para espacios amplios, doble cara, alta flexibilidad.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "PARAPOST® XH",
+    "meta": "Postes de titanio para soporte de restauraciones con mayor rigidez."
+  },
+  {
+    "orden": 48,
+    "id": "INTE049",
+    "productCode": "INTE049",
+    "name": "INTERLIG",
+    "category": "Endodoncia",
+    "slug": "interlig",
+    "vendor": "ANGELUS",
+    "originalPrice": "",
+    "image": "/products/main/INTE049.jpg",
+    "gallery": [
+      "/products/main/INTE049.jpg"
+    ],
+    "description": "Discos abrasivos para pulido y acabado, sistema de 4 granos, paquete de 20 unidades.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "INTERLIG",
+    "meta": "Fibras de polietileno para ferulización y estabilización de dientes."
+  },
+  {
+    "orden": 49,
+    "id": "POST050",
+    "productCode": "POST050",
+    "name": "POSTES DE FIBRA",
+    "category": "Endodoncia",
+    "slug": "postes-de-fibra",
+    "vendor": "CONTEC",
+    "originalPrice": "",
+    "image": "/products/main/POST050.jpg",
+    "gallery": [
+      "/products/main/POST050.jpg"
+    ],
+    "description": "Cemento temporal para restauraciones provisionales, fácil remoción.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "POSTES DE FIBRA",
+    "meta": "Postes estéticos y flexibles para reconstrucción de muñones."
+  },
+  {
+    "orden": 50,
+    "id": "UNIC051",
+    "productCode": "UNIC051",
+    "name": "UNICORE® POST",
+    "category": "Endodoncia",
+    "slug": "unicore-post",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/UNIC051.jpg",
+    "gallery": [
+      "/products/main/UNIC051.jpg"
+    ],
+    "description": "Cemento resinoso dual (químico y foto), tono A2, incluye puntas de mezcla.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "UNICORE® POST",
+    "meta": "Postes de fibra de vidrio para restauraciones."
+  },
+  {
+    "orden": 51,
+    "id": "PARA052",
+    "productCode": "PARA052",
+    "name": "PARAPOST FIBER LUX",
+    "category": "Endodoncia",
+    "slug": "parapost-fiber-lux",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/PARA052.jpg",
+    "gallery": [
+      "/products/main/PARA052.jpg"
+    ],
+    "description": "Ionómero de vidrio de alta resistencia, polvo 15g + líquido 10g.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "PARAPOST FIBER LUX",
+    "meta": "Postes de fibra de vidrio translúcidos."
+  },
+  {
+    "orden": 52,
+    "id": "PARA053",
+    "productCode": "PARA053",
+    "name": "PARAPOST TAPER LUX",
+    "category": "Endodoncia",
+    "slug": "parapost-taper-lux",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/PARA053.jpg",
+    "gallery": [
+      "/products/main/PARA053.jpg"
+    ],
+    "description": "Cemento dual para reconstrucción de muñones, tono A1.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "PARAPOST TAPER LUX",
+    "meta": "Postes de fibra de vidrio con forma cónica."
+  },
+  {
+    "orden": 53,
+    "id": "PARA054",
+    "productCode": "PARA054",
+    "name": "PARAPOST FIBER WHITE",
+    "category": "Endodoncia",
+    "slug": "parapost-fiber-white",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/PARA054.jpg",
+    "gallery": [
+      "/products/main/PARA054.jpg"
+    ],
+    "description": "Composites fotopolimerizable para posterior, tono A2, alta resistencia.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "PARAPOST FIBER WHITE",
+    "meta": "Postes de fibra de vidrio blancos para estética."
+  },
+  {
+    "orden": 54,
+    "id": "PIN-055",
+    "productCode": "PIN-055",
+    "name": "PIN-JET",
+    "category": "Endodoncia",
+    "slug": "pin-jet",
+    "vendor": "ANGELUS",
+    "originalPrice": "",
+    "image": "/products/main/PIN-055.jpg",
+    "gallery": [
+      "/products/main/PIN-055.jpg"
+    ],
+    "description": "Composites nanohíbrido de alta carga, tono A2, excelente estética.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "PIN-JET",
+    "meta": "Dispositivo para la cementación de postes."
+  },
+  {
+    "orden": 55,
+    "id": "SILA056",
+    "productCode": "SILA056",
+    "name": "SILANO™",
+    "category": "Endodoncia",
+    "slug": "silano-",
+    "vendor": "ULTRADENT",
+    "originalPrice": "",
+    "image": "/products/main/SILA056.jpg",
+    "gallery": [
+      "/products/main/SILA056.jpg"
+    ],
+    "description": "Composites universal con nanotecnología, tono A1, incluye 2 jeringas.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "SILANO™",
+    "meta": "Agente de unión para restauraciones cerámicas."
+  },
+  {
+    "orden": 56,
+    "id": "OPAL057",
+    "productCode": "OPAL057",
+    "name": "OPALESCENCE™ ENDO",
+    "category": "Endodoncia",
+    "slug": "opalescence-endo",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/OPAL057.jpg",
+    "gallery": [
+      "/products/main/OPAL057.jpg"
+    ],
+    "description": "Composites para posteriores, tono B2, alta resistencia al desgaste.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "OPALESCENCE™ ENDO",
+    "meta": "Gel blanqueador para blanqueamiento interno de dientes no vitales."
+  },
+  {
+    "orden": 57,
+    "id": "DYCA058",
+    "productCode": "DYCA058",
+    "name": "DYCAL™ LIFE",
+    "category": "Endodoncia",
+    "slug": "dycal-life",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/DYCA058.jpg",
+    "gallery": [
+      "/products/main/DYCA058.jpg"
+    ],
+    "description": "Composites estético con alta fluorescencia, tono A2.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "DYCAL™ LIFE",
+    "meta": "Material de hidróxido de calcio para recubrimiento pulpar indirecto y directo."
+  },
+  {
+    "orden": 58,
+    "id": "SEAL059",
+    "productCode": "SEAL059",
+    "name": "SEALAPEX™",
+    "category": "Endodoncia",
+    "slug": "sealapex-",
+    "vendor": "KERR",
+    "originalPrice": "",
+    "image": "/products/main/SEAL059.jpg",
+    "gallery": [
+      "/products/main/SEAL059.jpg"
+    ],
+    "description": "Composites de relleno en bloque, tono A1, aplicación en una sola capa.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "SEALAPEX™",
+    "meta": "Material de hidróxido de calcio fotopolimerizable para recubrimiento pulpar."
+  },
+  {
+    "orden": 59,
+    "id": "BIOD060",
+    "productCode": "BIOD060",
+    "name": "BIODENTINE®",
+    "category": "Endodoncia",
+    "slug": "biodentine-",
+    "vendor": "SEPTODONT",
+    "originalPrice": "",
+    "image": "/products/main/BIOD060.jpg",
+    "gallery": [
+      "/products/main/BIOD060.jpg"
+    ],
+    "description": "Composites fluido rosa para restauraciones gingivales estéticas.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "BIODENTINE®",
+    "meta": "Sustituto de la dentina para restauraciones de base, recubrimiento pulpar y endodoncia."
+  },
+  {
+    "orden": 60,
+    "id": "PERM061",
+    "productCode": "PERM061",
+    "name": "PERMA EVOLUTION™",
+    "category": "Endodoncia",
+    "slug": "perma-evolution-",
+    "vendor": "BECHT",
+    "originalPrice": "",
+    "image": "/products/main/PERM061.jpg",
+    "gallery": [
+      "/products/main/PERM061.jpg"
+    ],
+    "description": "Resina humectante para modelado de capas de composite, mejora la adhesión.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "PERMA EVOLUTION™",
+    "meta": "Material para recubrimiento pulpar a base de hidróxido de calcio."
+  },
+  {
+    "orden": 61,
+    "id": "CONO062",
+    "productCode": "CONO062",
+    "name": "CONOS GUTAPERCHA",
+    "category": "Endodoncia",
+    "slug": "conos-gutapercha",
+    "vendor": "",
+    "originalPrice": "",
+    "image": "/products/main/CONO062.jpg",
+    "gallery": [
+      "/products/main/CONO062.jpg"
+    ],
+    "description": "Adhesivo universal de 3M, con nanorelleno, compatible con dentina húmeda.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "CONOS GUTAPERCHA",
+    "meta": "Material de obturación de conductos en endodoncia."
+  },
+  {
+    "orden": 62,
+    "id": "ULTR063",
+    "productCode": "ULTR063",
+    "name": "ULTRA-BLEND™ PLUS",
+    "category": "Endodoncia",
+    "slug": "ultra-blend-plus",
+    "vendor": "ULTRADENT",
+    "originalPrice": "",
+    "image": "/products/main/ULTR063.jpg",
+    "gallery": [
+      "/products/main/ULTR063.jpg"
+    ],
+    "description": "Punta aplicadora flexible, calibre fino, color celeste.",
+    "specs": "",
+    "shipping": "",
+    "support": "",
+    "alt": "ULTRA-BLEND™ PLUS",
+    "meta": "Recubrimiento pulpar de hidróxido de calcio fotopolimerizable."
+  }
+]
