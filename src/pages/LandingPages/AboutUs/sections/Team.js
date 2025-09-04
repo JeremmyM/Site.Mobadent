@@ -58,7 +58,7 @@ function Team() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={team1} // Reutilizamos team1
-                name="Jeremy"
+                name="Ing. Jeremmy"
                 position={{ color: "info", label: "Fundador y Director General" }}
                 description="Liderando la visión de Mobadent para ofrecer las mejores soluciones en el mercado dental."
               />
@@ -68,7 +68,7 @@ function Team() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={team2} // Reutilizamos team2
-                name="Michael"
+                name="Dr. Michael"
                 position={{ color: "info", label: "Jefe de Operaciones" }}
                 description="Asegurando que cada pedido se procese y se entregue con la máxima eficiencia y precisión."
               />
@@ -78,7 +78,7 @@ function Team() {
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={team3} // Reutilizamos team3
-                name="Monica"
+                name="Dra. Monica"
                 position={{ color: "info", label: "Gerente de Marketing" }}
                 description="Conectando nuestra marca con la comunidad y mostrando el valor de nuestros productos."
               />
@@ -88,7 +88,7 @@ function Team() {
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={team4} // Reutilizamos team4
-                name="Eduardo"
+                name="Dr. Eduardo"
                 position={{ color: "info", label: "Asesor Comercial" }}
                 description="Ofreciendo soporte y asesoría personalizada para ayudarte a encontrar los productos ideales."
               />
@@ -99,9 +99,9 @@ function Team() {
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={team1} // Reutilizamos team1
-                name="Gabriel"
+                name="Msc. Gabriel"
                 position={{ color: "info", label: "Especialista en Logística" }}
-                description="Gestionando la distribución para que nuestros productos lleguen a tu puerta de manera rápida y segura."
+                description="La voz amable detrás de Mobadent, siempre lista para resolver tus dudas y asistirte."
               />
             </MKBox>
           </Grid>
@@ -109,7 +109,7 @@ function Team() {
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
                 image={team2} // Reutilizamos team2
-                name="Gabriela"
+                name="Dra. Gabriela"
                 position={{ color: "info", label: "Atención al Cliente" }}
                 description="La voz amable detrás de Mobadent, siempre lista para resolver tus dudas y asistirte."
               />

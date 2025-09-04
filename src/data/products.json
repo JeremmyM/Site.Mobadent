@@ -10,7 +10,6 @@
     "originalPrice": "",
     "image": "/products/main/BIFI002.jpg",
     "gallery": [
-      "/products/main/BIFI002.jpg",
       "/products/main/BIFI002.jpg"
     ],
     "description": "Pulido preciso con pasta diamantada en zonas difíciles",
@@ -18,7 +17,7 @@
     "shipping": "",
     "support": "",
     "alt": "BIFIX® SE",
-    "meta": "Cemento de resina para postes, coronas, puentes e inlays/onlays."
+    "meta": "Cemento de resina autoadhesivo dual para la fijaciуn de restauraciones indirectas."
   },
   {
     "orden": 2,
@@ -31,7 +30,6 @@
     "originalPrice": "",
     "image": "/products/main/MERO003.jpg",
     "gallery": [
-      "/products/main/MERO003.jpg",
       "/products/main/MERO003.jpg"
     ],
     "description": "Pulido preciso con pasta diamantada en zonas difíciles",
@@ -39,7 +37,7 @@
     "shipping": "",
     "support": "",
     "alt": "MERON®",
-    "meta": "Cemento de resina autoadhesivo y de curado dual para restauraciones indirectas."
+    "meta": "Cemento de ionуmero de vidrio para cementaciones y bases."
   },
   {
     "orden": 3,
@@ -59,7 +57,7 @@
     "shipping": "",
     "support": "",
     "alt": "RELYX U200",
-    "meta": "Cemento temporal sin eugenol, indicado para coronas y puentes provisionales."
+    "meta": "Cemento de resina autoadhesivo de polimerizaciуn dual para la cementaciуn de restauraciones indirectas."
   },
   {
     "orden": 4,
@@ -79,7 +77,7 @@
     "shipping": "",
     "support": "",
     "alt": "RELYX™ TEMP NE",
-    "meta": "Cemento de resina para carillas, ofrece excelente estabilidad de color."
+    "meta": "Cemento temporal sin eugenol para la cementaciуn de restauraciones provisionales."
   },
   {
     "orden": 5,
@@ -99,7 +97,7 @@
     "shipping": "",
     "support": "",
     "alt": "RELYX™ VENEER CEMENT",
-    "meta": "Cemento de resina de curado dual para reconstrucción de muñones y cementación de postes."
+    "meta": "Cemento de resina fotopolimerizable para cementar carillas de porcelana y resina."
   },
   {
     "orden": 6,
@@ -119,7 +117,7 @@
     "shipping": "",
     "support": "",
     "alt": "PARACORE®",
-    "meta": "Cemento de resina de curado dual para restauraciones indirectas de cerámica, resina y metal."
+    "meta": "Material de resina dual para reconstrucciуn de muсones y cementaciуn de postes."
   },
   {
     "orden": 7,
@@ -139,7 +137,7 @@
     "shipping": "",
     "support": "",
     "alt": "ALLCEM™",
-    "meta": "Cemento de ionómero de vidrio para cementación de coronas, puentes e inlays."
+    "meta": "Cemento de resina dual para la cementaciуn de postes y coronas."
   },
   {
     "orden": 8,
@@ -159,7 +157,7 @@
     "shipping": "",
     "support": "",
     "alt": "FUJI GOLD LABEL 1",
-    "meta": "Cemento de ionómero de vidrio para restauración de clase I, II, III y V."
+    "meta": "Cemento de ionуmero de vidrio para la cementaciуn de coronas y puentes."
   },
   {
     "orden": 9,
@@ -179,7 +177,7 @@
     "shipping": "",
     "support": "",
     "alt": "FUJI GOLD LABEL 2",
-    "meta": "Ionómero de vidrio de alta resistencia para restauraciones posteriores."
+    "meta": "Ionуmero de vidrio para restauraciones directas de Clase I y II."
   },
   {
     "orden": 10,
@@ -199,7 +197,7 @@
     "shipping": "",
     "support": "",
     "alt": "FUJI GOLD LABEL 9",
-    "meta": "Ionómero de vidrio de base y liner fotopolimerizable."
+    "meta": "Ionуmero de vidrio de alta resistencia para restauraciones de piezas posteriores."
   },
   {
     "orden": 11,
@@ -219,7 +217,7 @@
     "shipping": "",
     "support": "",
     "alt": "FUJI LINING™ LC",
-    "meta": "Resina compuesta microhíbrida para restauraciones estéticas."
+    "meta": "Ionуmero de vidrio de baja viscosidad, fotopolimerizable, para bases y revestimientos."
   },
   {
     "orden": 12,
@@ -239,7 +237,7 @@
     "shipping": "",
     "support": "",
     "alt": "VIT-L-ESCENCE™",
-    "meta": "Resina compuesta universal para restauraciones directas."
+    "meta": "Resina compuesta de estйtica avanzada para restauraciones directas."
   },
   {
     "orden": 13,
@@ -259,7 +257,7 @@
     "shipping": "",
     "support": "",
     "alt": "FORMA®",
-    "meta": "Resina nanohíbrida universal para restauraciones anteriores y posteriores."
+    "meta": "Resina de alto pulido y estйtica para restauraciones anteriores y posteriores."
   },
   {
     "orden": 14,
@@ -279,7 +277,7 @@
     "shipping": "",
     "support": "",
     "alt": "RESINA GRANDIO 4g",
-    "meta": "Resina compuesta universal para restauraciones estéticas."
+    "meta": "Resina nanohнbrida universal para restauraciones de alta estйtica."
   },
   {
     "orden": 15,
@@ -299,7 +297,7 @@
     "shipping": "",
     "support": "",
     "alt": "POLOFIL SUPRA®",
-    "meta": "Resina nanohíbrida para restauraciones estéticas."
+    "meta": "Resina compuesta microhнbrida para restauraciones estйticas y duraderas."
   },
   {
     "orden": 16,
@@ -319,7 +317,7 @@
     "shipping": "",
     "support": "",
     "alt": "POLOFIL NHT®",
-    "meta": "Resina compuesta de colores para restauraciones en dientes temporales."
+    "meta": "Resina nanohнbrida de alta viscosidad para restauraciones directas."
   },
   {
     "orden": 17,
@@ -339,7 +337,7 @@
     "shipping": "",
     "support": "",
     "alt": "TWINKY STAR™",
-    "meta": "Resina universal nanorrellena para restauraciones anteriores y posteriores."
+    "meta": "Resina compuesta de colores para restauraciones directas pediбtricas."
   },
   {
     "orden": 18,
@@ -359,7 +357,7 @@
     "shipping": "",
     "support": "",
     "alt": "FILTEK™ Z350 XT",
-    "meta": "Resina compuesta empacable para restauraciones posteriores."
+    "meta": "Resina nanorrellena universal para restauraciones de alta estйtica."
   },
   {
     "orden": 19,
@@ -379,7 +377,7 @@
     "shipping": "",
     "support": "",
     "alt": "FILTEK™ P60 POSTERIOR",
-    "meta": "Resina fluida que permite restauraciones posteriores de hasta 4 mm en una sola capa."
+    "meta": "Resina compuesta condensable para restauraciones posteriores."
   },
   {
     "orden": 20,
@@ -399,7 +397,7 @@
     "shipping": "",
     "support": "",
     "alt": "FILTEK™ BULK FILL",
-    "meta": "Sellador de fosetas y fisuras fotopolimerizable."
+    "meta": "Resina fluida para restauraciones posteriores de gran volumen."
   },
   {
     "orden": 21,
@@ -419,7 +417,7 @@
     "shipping": "",
     "support": "",
     "alt": "CLINPRO™ SEALANT",
-    "meta": "Material de restauración a base de cerámica y resina para coronas, puentes e inlays."
+    "meta": "Sellador de fosas y fisuras fotopolimerizable con liberaciуn de flъor."
   },
   {
     "orden": 22,
@@ -439,7 +437,7 @@
     "shipping": "",
     "support": "",
     "alt": "CERAMAGE®",
-    "meta": "Resina compuesta para restauraciones estéticas."
+    "meta": "Resina de cerбmica reforzada para restauraciones indirectas."
   },
   {
     "orden": 23,
@@ -459,7 +457,7 @@
     "shipping": "",
     "support": "",
     "alt": "RESINA SOLARE SOLARE P",
-    "meta": "Resina compuesta posterior que ofrece resistencia y un pulido duradero."
+    "meta": "Resina compuesta fotopolimerizable para restauraciones anteriores y posteriores."
   },
   {
     "orden": 24,
@@ -479,7 +477,7 @@
     "shipping": "",
     "support": "",
     "alt": "PrimmaART™",
-    "meta": "Resina microhíbrida para restauraciones estéticas."
+    "meta": "Resina compuesta universal para restauraciones estйticas."
   },
   {
     "orden": 25,
@@ -499,7 +497,7 @@
     "shipping": "",
     "support": "",
     "alt": "BRILLANT®",
-    "meta": "Resina compuesta universal para restauraciones."
+    "meta": "Resina microhнbrida de alta resistencia y brillo."
   },
   {
     "orden": 26,
@@ -519,7 +517,7 @@
     "shipping": "",
     "support": "",
     "alt": "LLIS®",
-    "meta": "Resina nanohíbrida para restauraciones estéticas y funcionales."
+    "meta": "Resina compuesta nanohнbrida para restauraciones de alta estйtica."
   },
   {
     "orden": 27,
@@ -539,7 +537,7 @@
     "shipping": "",
     "support": "",
     "alt": "NEOFIL®",
-    "meta": "Resina compuesta de nanorelleno para restauraciones."
+    "meta": "Resina compuesta universal para restauraciones estйticas."
   },
   {
     "orden": 28,
@@ -559,7 +557,7 @@
     "shipping": "",
     "support": "",
     "alt": "OPALLIS FLOW®",
-    "meta": "Resina fluida para restauraciones de clase III y V, y como base o liner."
+    "meta": "Resina fluida de baja viscosidad para restauraciones y liners."
   },
   {
     "orden": 29,
@@ -579,7 +577,7 @@
     "shipping": "",
     "support": "",
     "alt": "LIMAS TDK K-FILE",
-    "meta": "Limas de acero inoxidable tipo K para instrumentación manual de conductos radiculares."
+    "meta": "Instrumento manual de acero inoxidable para la instrumentaciуn del conducto radicular."
   },
   {
     "orden": 30,
@@ -599,7 +597,7 @@
     "shipping": "",
     "support": "",
     "alt": "LIMAS M-ACCESS K-FILE",
-    "meta": "Limas manuales para acceso y permeabilidad en conductos."
+    "meta": "Instrumento de acero inoxidable para la conformaciуn del conducto radicular."
   },
   {
     "orden": 31,
@@ -619,7 +617,7 @@
     "shipping": "",
     "support": "",
     "alt": "LIMA K-FLEXOFILE",
-    "meta": "Limas de acero inoxidable con alta flexibilidad para conductos curvos."
+    "meta": "Lima de acero inoxidable de alta flexibilidad para conductos curvos."
   },
   {
     "orden": 32,
@@ -639,7 +637,7 @@
     "shipping": "",
     "support": "",
     "alt": "LIMAS READY STEEL",
-    "meta": "Limas de acero inoxidable preconformadas para instrumentación."
+    "meta": "Limas de acero preesterilizadas de un solo uso."
   },
   {
     "orden": 33,
@@ -659,7 +657,7 @@
     "shipping": "",
     "support": "",
     "alt": "LIMAS NITIFLEX®",
-    "meta": "Limas de Níquel-Titanio (Ni-Ti) para instrumentación flexible de conductos."
+    "meta": "Limas rotatorias de nнquel-titanio de alta flexibilidad."
   },
   {
     "orden": 34,
@@ -679,7 +677,7 @@
     "shipping": "",
     "support": "",
     "alt": "LIMAS KENDO ISO",
-    "meta": "Limas de Níquel-Titanio para instrumentación manual en endodoncia."
+    "meta": "Limas de nнquel-titanio rotatorias para la preparaciуn del conducto."
   },
   {
     "orden": 35,
@@ -699,7 +697,7 @@
     "shipping": "",
     "support": "",
     "alt": "LIMAS WaveOne GOLD®",
-    "meta": "Limas rotatorias de Ni-Ti para instrumentación reciprocante en endodoncia."
+    "meta": "Limas rotatorias recнprocas para la preparaciуn del conducto en un solo instrumento."
   },
   {
     "orden": 36,
@@ -719,7 +717,7 @@
     "shipping": "",
     "support": "",
     "alt": "CONSEPSIS™",
-    "meta": "Solución desinfectante de clorhexidina al 2% para irrigación de conductos."
+    "meta": "Agente de irrigaciуn final para la eliminaciуn de la capa de detritos."
   },
   {
     "orden": 37,
@@ -739,7 +737,7 @@
     "shipping": "",
     "support": "",
     "alt": "SOLUCION EDTA 18%™",
-    "meta": "Solución quelante para ensanchar y limpiar conductos."
+    "meta": "Soluciуn para quelar y desbridar el conducto radicular."
   },
   {
     "orden": 38,
@@ -759,7 +757,7 @@
     "shipping": "",
     "support": "",
     "alt": "HIPOCLORITO DE SOCIO (NaOCl)",
-    "meta": "Solución irrigadora con acción bactericida para desinfección de conductos."
+    "meta": "Soluciуn para la irrigaciуn y desinfecciуn del conducto radicular."
   },
   {
     "orden": 39,
@@ -779,7 +777,7 @@
     "shipping": "",
     "support": "",
     "alt": "ENDO-EZE™",
-    "meta": "Sistema de irrigación endodóntica."
+    "meta": "Punta para irrigaciуn de conductos radiculares."
   },
   {
     "orden": 40,
@@ -799,7 +797,7 @@
     "shipping": "",
     "support": "",
     "alt": "CAPILLARY TIP",
-    "meta": "Puntas capilares para la aplicación precisa de materiales en conductos."
+    "meta": "Punta de irrigaciуn para conductos muy estrechos."
   },
   {
     "orden": 41,
@@ -819,7 +817,7 @@
     "shipping": "",
     "support": "",
     "alt": "NAVITIP™",
-    "meta": "Puntas de irrigación endodóntica flexibles para alcanzar el ápice."
+    "meta": "Punta de irrigaciуn flexible con aguja lateral para una distribuciуn uniforme."
   },
   {
     "orden": 42,
@@ -839,7 +837,7 @@
     "shipping": "",
     "support": "",
     "alt": "FRESAS GATES GLIDDEN",
-    "meta": "Fresas para ensanchamiento del tercio coronal de conductos."
+    "meta": "Fresa para ensanchar el tercio coronal del conducto."
   },
   {
     "orden": 43,
@@ -859,7 +857,7 @@
     "shipping": "",
     "support": "",
     "alt": "FRESAS PEESO",
-    "meta": "Fresas para conformación del tercio coronal y apertura del conducto."
+    "meta": "Fresa para la preparaciуn de los conductos para postes."
   },
   {
     "orden": 44,
@@ -879,7 +877,7 @@
     "shipping": "",
     "support": "",
     "alt": "FRESA ENDO Z",
-    "meta": "Fresa de carburo de tungsteno para apertura de la cámara pulpar."
+    "meta": "Fresa de punta inactiva para la apertura cameral."
   },
   {
     "orden": 45,
@@ -899,7 +897,7 @@
     "shipping": "",
     "support": "",
     "alt": "PARAPOST® XP",
-    "meta": "Postes de acero inoxidable para la reconstrucción de muñones."
+    "meta": "Poste de titanio con forma cуnica para la retenciуn en la raнz."
   },
   {
     "orden": 46,
@@ -919,7 +917,7 @@
     "shipping": "",
     "support": "",
     "alt": "PARAPOST® XT",
-    "meta": "Postes de titanio para soporte de la restauración."
+    "meta": "Poste de titanio de paredes finas para conductos estrechos."
   },
   {
     "orden": 47,
@@ -939,7 +937,7 @@
     "shipping": "",
     "support": "",
     "alt": "PARAPOST® XH",
-    "meta": "Postes de titanio para soporte de restauraciones con mayor rigidez."
+    "meta": "Poste de titanio de gran diбmetro para conductos anchos."
   },
   {
     "orden": 48,
@@ -959,7 +957,7 @@
     "shipping": "",
     "support": "",
     "alt": "INTERLIG",
-    "meta": "Fibras de polietileno para ferulización y estabilización de dientes."
+    "meta": "Fibras de refuerzo de polietileno para la estabilizaciуn de dientes."
   },
   {
     "orden": 49,
@@ -979,7 +977,7 @@
     "shipping": "",
     "support": "",
     "alt": "POSTES DE FIBRA",
-    "meta": "Postes estéticos y flexibles para reconstrucción de muñones."
+    "meta": "Postes de fibra de vidrio para la reconstrucciуn de muсones."
   },
   {
     "orden": 50,
@@ -999,7 +997,7 @@
     "shipping": "",
     "support": "",
     "alt": "UNICORE® POST",
-    "meta": "Postes de fibra de vidrio para restauraciones."
+    "meta": "Poste de fibra de vidrio para la reconstrucciуn de muсones."
   },
   {
     "orden": 51,
@@ -1019,7 +1017,7 @@
     "shipping": "",
     "support": "",
     "alt": "PARAPOST FIBER LUX",
-    "meta": "Postes de fibra de vidrio translúcidos."
+    "meta": "Poste de fibra de vidrio translъcido para restauraciones estйticas."
   },
   {
     "orden": 52,
@@ -1039,7 +1037,7 @@
     "shipping": "",
     "support": "",
     "alt": "PARAPOST TAPER LUX",
-    "meta": "Postes de fibra de vidrio con forma cónica."
+    "meta": "Poste de fibra de vidrio cуnico y translъcido."
   },
   {
     "orden": 53,
@@ -1059,7 +1057,7 @@
     "shipping": "",
     "support": "",
     "alt": "PARAPOST FIBER WHITE",
-    "meta": "Postes de fibra de vidrio blancos para estética."
+    "meta": "Poste de fibra de vidrio blanco para restauraciones estйticas."
   },
   {
     "orden": 54,
@@ -1079,7 +1077,7 @@
     "shipping": "",
     "support": "",
     "alt": "PIN-JET",
-    "meta": "Dispositivo para la cementación de postes."
+    "meta": "Poste de metal para la retenciуn en la reconstrucciуn."
   },
   {
     "orden": 55,
@@ -1099,7 +1097,7 @@
     "shipping": "",
     "support": "",
     "alt": "SILANO™",
-    "meta": "Agente de unión para restauraciones cerámicas."
+    "meta": "Agente de uniуn para restauraciones de cerбmica y resina."
   },
   {
     "orden": 56,
@@ -1119,7 +1117,7 @@
     "shipping": "",
     "support": "",
     "alt": "OPALESCENCE™ ENDO",
-    "meta": "Gel blanqueador para blanqueamiento interno de dientes no vitales."
+    "meta": "Gel para blanqueamiento dental en el interior de la cбmara pulpar."
   },
   {
     "orden": 57,
@@ -1139,7 +1137,7 @@
     "shipping": "",
     "support": "",
     "alt": "DYCAL™ LIFE",
-    "meta": "Material de hidróxido de calcio para recubrimiento pulpar indirecto y directo."
+    "meta": "Material de hidrуxido de calcio para recubrimiento pulpar indirecto."
   },
   {
     "orden": 58,
@@ -1159,7 +1157,7 @@
     "shipping": "",
     "support": "",
     "alt": "SEALAPEX™",
-    "meta": "Material de hidróxido de calcio fotopolimerizable para recubrimiento pulpar."
+    "meta": "Sellador de conductos radiculares a base de hidrуxido de calcio."
   },
   {
     "orden": 59,
@@ -1179,7 +1177,7 @@
     "shipping": "",
     "support": "",
     "alt": "BIODENTINE®",
-    "meta": "Sustituto de la dentina para restauraciones de base, recubrimiento pulpar y endodoncia."
+    "meta": "Material de silicato de calcio para protecciуn pulpar y reparaciones endodуnticas."
   },
   {
     "orden": 60,
@@ -1199,7 +1197,7 @@
     "shipping": "",
     "support": "",
     "alt": "PERMA EVOLUTION™",
-    "meta": "Material para recubrimiento pulpar a base de hidróxido de calcio."
+    "meta": "Material para recubrimiento pulpar indirecto."
   },
   {
     "orden": 61,
@@ -1219,7 +1217,7 @@
     "shipping": "",
     "support": "",
     "alt": "CONOS GUTAPERCHA",
-    "meta": "Material de obturación de conductos en endodoncia."
+    "meta": "Puntas para el relleno de conductos radiculares."
   },
   {
     "orden": 62,
@@ -1239,6 +1237,6 @@
     "shipping": "",
     "support": "",
     "alt": "ULTRA-BLEND™ PLUS",
-    "meta": "Recubrimiento pulpar de hidróxido de calcio fotopolimerizable."
+    "meta": "Liner de hidrуxido de calcio para recubrimiento pulpar directo."
   }
 ]
