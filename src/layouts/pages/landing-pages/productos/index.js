@@ -103,6 +103,9 @@ function Productos() {
       finalProducts = finalProducts.filter((product) => product.vendor === selectedVendor);
     }
 
+    // 3e. Ordenar la lista final de productos
+    finalProducts.sort((a, b) => a.orden - b.orden);
+
     setFilteredProducts(finalProducts);
 
     // Las dependencias del efecto ahora son los 3 estados
@@ -183,9 +186,9 @@ function Productos() {
                     ))}
                   </Select>
                 </FormControl>
-              </MKBox>
 
-              {/* Filtro por Marca/Vendor */}
+                {/* Filtro por Marca/Vendor */}
+              </MKBox>
               <MKBox>
                 <MKTypography variant="h6" color="text" mb={1} sx={{ textAlign: "left" }}>
                   Marca
