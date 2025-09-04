@@ -59,8 +59,8 @@ function Team() {
               <HorizontalTeamCard
                 image={team1} // Reutilizamos team1
                 name="Ing. Jeremmy"
-                position={{ color: "info", label: "Fundador y Director General" }}
-                description="Liderando la visión de Mobadent para ofrecer las mejores soluciones en el mercado dental."
+                position={{ color: "info", label: "Director de Tecnología" }}
+                description="Impulsando la visión tecnológica de Mobadent para asegurar que nuestras soluciones dentales estén siempre a la vanguardia del mercado."
               />
             </MKBox>
           </Grid>
@@ -69,8 +69,8 @@ function Team() {
               <HorizontalTeamCard
                 image={team2} // Reutilizamos team2
                 name="Dr. Michael"
-                position={{ color: "info", label: "Jefe de Operaciones" }}
-                description="Asegurando que cada pedido se procese y se entregue con la máxima eficiencia y precisión."
+                position={{ color: "info", label: "Gerente Comercial y Financiero" }}
+                description="Estrategias de crecimiento, gestión financiera y optimización de recursos para llevar a Mobadent a un futuro de éxito."
               />
             </MKBox>
           </Grid>
@@ -79,8 +79,8 @@ function Team() {
               <HorizontalTeamCard
                 image={team3} // Reutilizamos team3
                 name="Dra. Monica"
-                position={{ color: "info", label: "Gerente de Marketing" }}
-                description="Conectando nuestra marca con la comunidad y mostrando el valor de nuestros productos."
+                position={{ color: "info", label: "Fundadora y Gerente General" }}
+                description="Liderando con una visión de excelencia, construyendo los cimientos de nuestra marca y asegurando la calidad de cada solución que ofrecemos."
               />
             </MKBox>
           </Grid>
@@ -89,8 +89,8 @@ function Team() {
               <HorizontalTeamCard
                 image={team4} // Reutilizamos team4
                 name="Dr. Eduardo"
-                position={{ color: "info", label: "Asesor Comercial" }}
-                description="Ofreciendo soporte y asesoría personalizada para ayudarte a encontrar los productos ideales."
+                position={{ color: "info", label: "Gerente de Operaciones y Logística" }}
+                description="Optimizando la cadena de suministro para garantizar que cada producto llegue a su destino con la máxima precisión y en el menor tiempo posible."
               />
             </MKBox>
           </Grid>
@@ -100,8 +100,11 @@ function Team() {
               <HorizontalTeamCard
                 image={team1} // Reutilizamos team1
                 name="Msc. Gabriel"
-                position={{ color: "info", label: "Especialista en Logística" }}
-                description="La voz amable detrás de Mobadent, siempre lista para resolver tus dudas y asistirte."
+                position={{
+                  color: "info",
+                  label: "Director de Ingeniería Biomédica",
+                }}
+                description="Con su experiencia técnica, lidera la supervisión del servicio técnico y garantiza el rendimiento óptimo de cada equipo."
               />
             </MKBox>
           </Grid>
@@ -110,8 +113,8 @@ function Team() {
               <HorizontalTeamCard
                 image={team2} // Reutilizamos team2
                 name="Dra. Gabriela"
-                position={{ color: "info", label: "Atención al Cliente" }}
-                description="La voz amable detrás de Mobadent, siempre lista para resolver tus dudas y asistirte."
+                position={{ color: "info", label: "Gerente de Marketing Digital" }}
+                description="Conectando a nuestra marca con la comunidad profesional a través de estrategias digitales innovadoras y de valor."
               />
             </MKBox>
           </Grid>

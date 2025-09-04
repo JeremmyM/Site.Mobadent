@@ -126,7 +126,7 @@ function Presentation() {
                 description="Descubre nuestro amplio catálogo de productos de las mejores marcas, garantizando la excelencia en cada procedimiento."
                 action={{
                   type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/overview/material-kit/",
+                  route: "pages/productos",
                   label: "Ver productos",
                 }}
               />
@@ -139,7 +139,7 @@ function Presentation() {
                 description="Recibe soporte de nuestro equipo para elegir los materiales y equipos más adecuados para tu práctica profesional."
                 action={{
                   type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/overview/datepicker/",
+                  route: "https://wa.me/593960044111",
                   label: "Contactar",
                 }}
               />
@@ -152,7 +152,7 @@ function Presentation() {
                 description="Nuestra cadena de suministro asegura que tus pedidos lleguen de manera rápida y segura, para que nunca te falte lo esencial."
                 action={{
                   type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",
+                  route: "https://wa.me/593960044111",
                   label: "Más información",
                 }}
               />

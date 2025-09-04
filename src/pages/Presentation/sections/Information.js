@@ -56,7 +56,7 @@ function Information() {
                 description="Te ayudamos a optimizar tu tiempo y recursos con nuestra amplia gama de insumos y equipos dentales."
                 action={{
                   type: "internal",
-                  route: "/pages/contact-us",
+                  route: "https://wa.me/593960044111",
                   label: "Contáctanos",
                 }}
               />

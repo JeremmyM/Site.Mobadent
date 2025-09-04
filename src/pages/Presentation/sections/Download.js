@@ -64,7 +64,7 @@ function Download() {
               color="info"
               size="large"
               component="a"
-              href="/catalogo" // Enlaza a tu página de catálogo
+              href="pages/productos" // Enlaza a tu página de catálogo
               sx={{ mb: 2 }}
             >
               Ver Catálogo
