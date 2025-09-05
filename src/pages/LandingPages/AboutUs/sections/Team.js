@@ -8,7 +8,7 @@
 
 Coded by www.creative-tim.com
 
- =========================================================
+=========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
@@ -16,6 +16,7 @@ Coded by www.creative-tim.com
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
+import PropTypes from "prop-types";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -32,7 +33,7 @@ import team4 from "assets/images/ivana-square.jpg";
 import team5 from "assets/images/gabriel.jpg";
 import team6 from "assets/images/gabriela.jpg";
 
-function Team() {
+function Team({ id }) {
   return (
     <MKBox
       component="section"
@@ -42,6 +43,7 @@ function Team() {
       py={6}
       px={{ xs: 2, lg: 0 }}
       mx={-2}
+      id={id}
     >
       <Container>
         <Grid container>
@@ -59,7 +61,7 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team1} // Reutilizamos team1
+                image={team1}
                 name="Ing. Jeremmy"
                 position={{ color: "info", label: "Director de Tecnología" }}
                 description="Impulsando la visión tecnológica de Mobadent para asegurar que nuestras soluciones dentales estén siempre a la vanguardia del mercado."
@@ -69,7 +71,7 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={1}>
               <HorizontalTeamCard
-                image={team2} // Reutilizamos team2
+                image={team2}
                 name="Dr. Michael"
                 position={{ color: "info", label: "Gerente Comercial y Financiero" }}
                 description="Estrategias de crecimiento, gestión financiera y optimización de recursos para llevar a Mobadent a un futuro de éxito."
@@ -79,7 +81,7 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={team3} // Reutilizamos team3
+                image={team3}
                 name="Dra. Monica"
                 position={{ color: "info", label: "Fundadora y Gerente General" }}
                 description="Liderando con una visión de excelencia, construyendo los cimientos de nuestra marca y asegurando la calidad de cada solución que ofrecemos."
@@ -89,18 +91,17 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={team4} // Reutilizamos team4
+                image={team4}
                 name="Dr. Eduardo"
                 position={{ color: "info", label: "Gerente de Operaciones y Logística" }}
                 description="Optimizando la cadena de suministro para garantizar que cada producto llegue a su destino con la máxima precisión y en el menor tiempo posible."
               />
             </MKBox>
           </Grid>
-          {/* Agrega a Gabriel y Gabriela, reutilizando las imágenes existentes */}
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={team5} // Reutilizamos team1
+                image={team5}
                 name="Msc. Gabriel"
                 position={{
                   color: "info",
@@ -113,7 +114,7 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={team6} // Reutilizamos team2
+                image={team6}
                 name="Dra. Gabriela"
                 position={{ color: "info", label: "Gerente de Marketing Digital" }}
                 description="Conectando a nuestra marca con la comunidad profesional a través de estrategias digitales innovadoras y de valor."
@@ -125,5 +126,9 @@ function Team() {
     </MKBox>
   );
 }
+
+Team.propTypes = {
+  id: PropTypes.string,
+};
 
 export default Team;

@@ -8,7 +8,7 @@
 
 Coded by www.creative-tim.com
 
- =========================================================
+=========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
@@ -18,6 +18,9 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Icon from "@mui/material/Icon";
 
+// Importa el hook useNavigate
+import { useNavigate } from "react-router-dom";
+
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKAvatar from "components/MKAvatar";
@@ -25,9 +28,15 @@ import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 
 // Images
-import profilePicture from "assets/images/bruce-mars.jpg"; // Reemplaza con una imagen de Jeremy
+import profilePicture from "assets/images/bruce-mars.jpg";
 
 function Profile() {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    navigate("/pages/landing-pages/about-us#equipo");
+  };
+
   return (
     <MKBox component="section" py={{ xs: 6, sm: 12 }}>
       <Container>
@@ -39,7 +48,14 @@ function Profile() {
             <Grid item xs={12} md={7} mx={{ xs: "auto", sm: 6, md: 1 }}>
               <MKBox display="flex" justifyContent="space-between" alignItems="center" mb={1}>
                 <MKTypography variant="h3">Mònica</MKTypography>
-                <MKButton variant="outlined" color="info" size="small">
+                <MKButton
+                  component="a"
+                  href="https://wa.me/593960044111"
+                  target="_blank"
+                  variant="outlined"
+                  color="info"
+                  size="small"
+                >
                   Contactar
                 </MKButton>
               </MKBox>
@@ -76,7 +92,7 @@ function Profile() {
                 <br />
                 <MKTypography
                   component="a"
-                  href="#"
+                  onClick={handleNavigate}
                   variant="body1"
                   fontWeight="light"
                   color="info"
@@ -85,12 +101,11 @@ function Profile() {
                     width: "max-content",
                     display: "flex",
                     alignItems: "center",
-
+                    cursor: "pointer",
                     "& .material-icons-round": {
                       transform: `translateX(3px)`,
                       transition: "transform 0.2s cubic-bezier(0.34, 1.61, 0.7, 1.3)",
                     },
-
                     "&:hover .material-icons-round, &:focus .material-icons-round": {
                       transform: `translateX(6px)`,
                     },

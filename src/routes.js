@@ -20,7 +20,7 @@ import Icon from "@mui/material/Icon";
 import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
 import Author from "layouts/pages/landing-pages/author";
-import SignIn from "layouts/pages/authentication/sign-in";
+//import SignIn from "layouts/pages/authentication/sign-in";
 import Presentation from "layouts/pages/presentation"; // Importa Presentation aquí
 
 import Productos from "layouts/pages/landing-pages/productos"; // Asegúrate de que la ruta sea correcta
@@ -63,6 +63,7 @@ const routes = [
           },
         ],
       },
+      /*
       {
         name: "Autenticación",
         collapse: [
@@ -73,6 +74,7 @@ const routes = [
           },
         ],
       },
+      */
     ],
   },
   /*

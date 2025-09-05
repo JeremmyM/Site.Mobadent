@@ -8,7 +8,7 @@
 
 Coded by www.creative-tim.com
 
- =========================================================
+=========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
@@ -17,6 +17,10 @@ Coded by www.creative-tim.com
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
+
+// Hooks de React necesarios para el desplazamiento
+import { useEffect } from "react";
+import { useLocation, Link } from "react-router-dom"; // Importamos 'Link' aquí
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -41,14 +45,32 @@ import footerRoutes from "footer.routes";
 import bgImage from "assets/images/bg-about-us.jpg";
 
 function AboutUs() {
+  const location = useLocation();
+
+  useEffect(() => {
+    // Aquí es donde se realiza la lógica de desplazamiento
+    const scrollToAnchor = () => {
+      if (location.hash) {
+        const targetElement = document.getElementById(location.hash.substring(1));
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    };
+
+    // Llamar a la función de desplazamiento después de un pequeño retraso
+    // para dar tiempo a que los elementos se rendericen.
+    setTimeout(scrollToAnchor, 100);
+  }, [location]);
+
   return (
     <>
       <DefaultNavbar
         routes={routes}
         action={{
           type: "internal",
-          route: "/pages/authentication/sign-in",
-          label: "Iniciar Sesión",
+          route: "https://wa.me/593960044111",
+          label: "Contactanos",
           color: "default",
         }}
         transparent
@@ -96,9 +118,11 @@ function AboutUs() {
               dedicamos a la distribución de productos de la más alta calidad para odontólogos,
               clínicas y universidades.
             </MKTypography>
-            <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
-              Ver Catálogo
-            </MKButton>
+            <Link to="/pages/productos">
+              <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
+                Ver Catálogo
+              </MKButton>
+            </Link>
             <MKTypography variant="h6" color="white" mt={8} mb={1}></MKTypography>
             <MKBox display="flex" justifyContent="center" alignItems="center">
               <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
@@ -127,7 +151,7 @@ function AboutUs() {
         }}
       >
         <Information />
-        <Team />
+        <Team id="equipo" />
         <Featuring />
         <Newsletter />
       </Card>

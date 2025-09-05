@@ -125,8 +125,8 @@ function Productos() {
         routes={routes}
         action={{
           type: "internal",
-          route: "/pages/authentication/sign-in",
-          label: "Iniciar Sesión",
+          route: "https://wa.me/593960044111",
+          label: "Contactanos",
           color: "default",
         }}
         transparent
