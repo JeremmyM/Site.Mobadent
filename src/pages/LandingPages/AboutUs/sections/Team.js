@@ -29,6 +29,8 @@ import team1 from "assets/images/team-5.jpg";
 import team2 from "assets/images/bruce-mars.jpg";
 import team3 from "assets/images/ivana-squares.jpg";
 import team4 from "assets/images/ivana-square.jpg";
+import team5 from "assets/images/gabriel.jpg";
+import team6 from "assets/images/gabriela.jpg";
 
 function Team() {
   return (
@@ -98,7 +100,7 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={team1} // Reutilizamos team1
+                image={team5} // Reutilizamos team1
                 name="Msc. Gabriel"
                 position={{
                   color: "info",
@@ -111,7 +113,7 @@ function Team() {
           <Grid item xs={12} lg={6}>
             <MKBox mb={{ xs: 1, lg: 0 }}>
               <HorizontalTeamCard
-                image={team2} // Reutilizamos team2
+                image={team6} // Reutilizamos team2
                 name="Dra. Gabriela"
                 position={{ color: "info", label: "Gerente de Marketing Digital" }}
                 description="Conectando a nuestra marca con la comunidad profesional a través de estrategias digitales innovadoras y de valor."
