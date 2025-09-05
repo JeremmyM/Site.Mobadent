@@ -2,6 +2,8 @@
 
 // Importamos los hooks de React
 import { useState, useEffect } from "react";
+// CAMBIO: Importamos el hook useLocation para leer la URL
+import { useLocation } from "react-router-dom";
 
 // Importa los componentes de Material Kit
 import MKBox from "components/MKBox";
@@ -50,8 +52,14 @@ const handleViewDetails = (productName) => {
 };
 
 function Productos() {
+  // CAMBIO: Usamos el hook useLocation para obtener la URL actual
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const urlCategory = searchParams.get("categoria");
+
   // 1. Estados para los filtros, el buscador y los productos mostrados
-  const [selectedCategory, setSelectedCategory] = useState("Todos");
+  // CAMBIO: Usamos el valor de la URL para inicializar el estado
+  const [selectedCategory, setSelectedCategory] = useState(urlCategory || "Todos");
   const [selectedVendor, setSelectedVendor] = useState("Todos");
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredProducts, setFilteredProducts] = useState(productsData);
@@ -62,7 +70,9 @@ function Productos() {
 
   // 3. Hook useEffect para la lógica de filtrado y opciones dinámicas
   useEffect(() => {
-    // 3a. Filtrar los productos por la búsqueda
+    // La lógica de filtrado se mantiene igual, pero ahora se disparará
+    // automáticamente cuando cambie la URL gracias a la dependencia 'location.search'
+    // y el estado inicial `selectedCategory`
     const productsAfterSearch = productsData.filter((product) => {
       const lowerCaseQuery = searchQuery.toLowerCase().trim();
       return (
@@ -71,7 +81,6 @@ function Productos() {
       );
     });
 
-    // 3b. Generar las opciones de categorías basadas en el filtro de VENDOR
     const productsForCategoryOptions =
       selectedVendor !== "Todos"
         ? productsAfterSearch.filter((product) => product.vendor === selectedVendor)
@@ -82,7 +91,6 @@ function Productos() {
     ];
     setDisplayCategories(newCategories);
 
-    // 3c. Generar las opciones de VENDOR basadas en el filtro de categorías
     const productsForVendorOptions =
       selectedCategory !== "Todos"
         ? productsAfterSearch.filter((product) => product.category === selectedCategory)
@@ -93,7 +101,6 @@ function Productos() {
     ];
     setDisplayVendors(newVendors);
 
-    // 3d. Obtener la lista final de productos a mostrar
     let finalProducts = productsAfterSearch;
 
     if (selectedCategory !== "Todos") {
@@ -103,13 +110,14 @@ function Productos() {
       finalProducts = finalProducts.filter((product) => product.vendor === selectedVendor);
     }
 
-    // 3e. Ordenar la lista final de productos
     finalProducts.sort((a, b) => a.orden - b.orden);
 
     setFilteredProducts(finalProducts);
 
-    // Las dependencias del efecto ahora son los 3 estados
-  }, [selectedCategory, selectedVendor, searchQuery]);
+    // CAMBIO: Agregamos `location.search` a las dependencias. Esto hará que el efecto se
+    // vuelva a ejecutar si el parámetro de consulta cambia, por ejemplo, si
+    // el usuario navega a otra categoría desde otra página.
+  }, [selectedCategory, selectedVendor, searchQuery, location.search]);
 
   return (
     <>
@@ -158,7 +166,7 @@ function Productos() {
         </MKBox>
       </MKBox>
 
-      <MKBox component="section" my={6} pt={6}>
+      <MKBox component="section" my={1} pt={2}>
         <Grid container spacing={3} justifyContent="center" sx={{ px: { xs: 2, lg: 8 } }}>
           {/* Sección de filtros y buscador */}
           <Grid item xs={12} sx={{ mb: 4 }}>

@@ -99,9 +99,7 @@ function AboutUs() {
             <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
               Ver Catálogo
             </MKButton>
-            <MKTypography variant="h6" color="white" mt={8} mb={1}>
-              Encuéntranos en
-            </MKTypography>
+            <MKTypography variant="h6" color="white" mt={8} mb={1}></MKTypography>
             <MKBox display="flex" justifyContent="center" alignItems="center">
               <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
                 <i className="fab fa-facebook" />
