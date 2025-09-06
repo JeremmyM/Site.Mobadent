@@ -1,14 +1,16 @@
+// footer.routes.js
+
 // @mui icons
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import InstagramIcon from "@mui/icons-material/Instagram"; // Agregado para Instagram
-import WhatsAppIcon from "@mui/icons-material/WhatsApp"; // Agregado para WhatsApp
+import InstagramIcon from "@mui/icons-material/Instagram";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 // Material Kit 2 React components
 import MKTypography from "components/MKTypography";
 
 // Images
-import mobadentLogo from "assets/images/favicon.png"; // Reemplaza con la ruta de tu logo
+import mobadentLogo from "assets/images/favicon.png";
 
 const date = new Date().getFullYear();
 
@@ -41,18 +43,21 @@ export default {
       name: "Compañía",
       items: [
         { name: "Quiénes Somos", href: "/pages/landing-pages/about-us" },
-        { name: "Catálogo", href: "/pages/productos" }, // Enlace a tu catálogo de productos
-        //{ name: "Nuestro Blog", href: "/blog" },
+        { name: "Catálogo", href: "/pages/productos?categoria=Todos" }, // ¡AQUÍ ESTÁ LA CORRECCIÓN!
+        // { name: "Nuestro Blog", href: "/blog" },
         { name: "Contacto", href: "/pages/landing-pages/contact-us" },
       ],
     },
     {
       name: "Productos",
       items: [
-        { name: "Equipos y Herramientas", href: "/productos/equipos" },
-        { name: "Materiales", href: "/productos/materiales" },
-        { name: "Ortodoncia", href: "/productos/ortodoncia" },
-        { name: "Insumos Desechables", href: "/productos/insumos" },
+        {
+          name: "Equipos y Herramientas",
+          href: "/pages/productos?categoria=Equipos y Herramientas",
+        },
+        { name: "Materiales", href: "/pages/productos?categoria=Materiales" },
+        { name: "Ortodoncia", href: "/pages/productos?categoria=Ortodoncia" },
+        { name: "Insumos Desechables", href: "/pages/productos?categoria=Insumos Desechables" },
       ],
     },
     {

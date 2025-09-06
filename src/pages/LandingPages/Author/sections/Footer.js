@@ -8,7 +8,7 @@
 
 Coded by www.creative-tim.com
 
- =========================================================
+=========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
@@ -16,12 +16,14 @@ Coded by www.creative-tim.com
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import Link from "@mui/material/Link";
 import Stack from "@mui/material/Stack";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
+
+// React Router Link
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -55,9 +57,7 @@ function Footer() {
                   fontWeight="regular"
                   opacity={0.8}
                   component={Link}
-                  href="/pages/landing-pages/about-us"
-                  target="_blank"
-                  rel="noreferrer"
+                  to="/pages/landing-pages/about-us"
                 >
                   Quiénes Somos
                 </MKTypography>
@@ -68,9 +68,7 @@ function Footer() {
                   fontWeight="regular"
                   opacity={0.8}
                   component={Link}
-                  href="/catalogo"
-                  target="_blank"
-                  rel="noreferrer"
+                  to="/pages/productos"
                 >
                   Catálogo
                 </MKTypography>
@@ -81,9 +79,7 @@ function Footer() {
                   fontWeight="regular"
                   opacity={0.8}
                   component={Link}
-                  href="/blog"
-                  target="_blank"
-                  rel="noreferrer"
+                  to="/blog"
                 >
                   Blog
                 </MKTypography>
@@ -94,9 +90,7 @@ function Footer() {
                   fontWeight="regular"
                   opacity={0.8}
                   component={Link}
-                  href="/pages/landing-pages/contact-us"
-                  target="_blank"
-                  rel="noreferrer"
+                  to="/pages/landing-pages/contact-us"
                 >
                   Contacto
                 </MKTypography>

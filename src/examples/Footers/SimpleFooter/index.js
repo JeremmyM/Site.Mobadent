@@ -109,7 +109,7 @@ SimpleFooter.defaultProps = {
   company: { href: "/", name: "Mobadent" },
   links: [
     { href: "/pages/landing-pages/about-us", name: "Quiénes Somos" },
-    { href: "/catalogo", name: "Catálogo" },
+    { href: "/pages/productos", name: "Catálogo" },
     { href: "/blog", name: "Blog" },
     { href: "/pages/landing-pages/contact-us", name: "Contacto" },
   ],
