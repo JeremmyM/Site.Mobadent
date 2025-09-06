@@ -10,12 +10,12 @@ import PropTypes from "prop-types";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
 import Divider from "@mui/material/Divider";
-import WhatsAppIcon from "@mui/icons-material/WhatsApp"; // Importa el icono de WhatsApp
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
-function ProductCard({ image, name, description }) {
+function ProductCard({ image, name, description, vendor }) {
   // Variables para el enlace de WhatsApp
-  const phoneNumber = "593960044111"; // Tu número de teléfono
-  const message = `¡Hola! Estoy interesado en el producto "${name}" que vi en el catálogo de Mobadent. ¿Me pueden dar más información, por favor?`;
+  const phoneNumber = "593960044111";
+  const message = `¡Hola! Estoy interesado en el producto "${name}" de la marca "${vendor}" que vi en el catálogo de Mobadent. ¿Me pueden dar más información, por favor?`;
   const encodedMessage = encodeURIComponent(message);
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 
@@ -33,6 +33,10 @@ function ProductCard({ image, name, description }) {
         }}
       />
       <MKBox p={2} sx={{ flexGrow: 1, display: "flex", flexDirection: "column" }}>
+        {/* Aquí es donde se muestra la marca */}
+        <MKTypography variant="h6" color="text" fontWeight="medium" textTransform="uppercase">
+          {vendor}
+        </MKTypography>
         <MKTypography variant="h5" fontWeight="bold" textTransform="capitalize" gutterBottom>
           {name}
         </MKTypography>
@@ -51,10 +55,10 @@ function ProductCard({ image, name, description }) {
         <MKButton
           variant="gradient"
           color="info"
-          component="a" // Cambia a "a" para que actúe como un enlace
-          href={whatsappUrl} // Usamos la URL de WhatsApp
-          target="_blank" // Abre el enlace en una nueva pestaña
-          rel="noreferrer" // Medida de seguridad
+          component="a"
+          href={whatsappUrl}
+          target="_blank"
+          rel="noreferrer"
           fullWidth
           startIcon={<WhatsAppIcon />}
         >
@@ -69,6 +73,7 @@ ProductCard.propTypes = {
   image: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  vendor: PropTypes.string.isRequired,
 };
 
 export default ProductCard;
