@@ -43,7 +43,7 @@ function ProductCard({ image, name, description, onAddToCart }) {
         </MKTypography>
         <Divider sx={{ my: 1.5 }} />
         <MKButton variant="gradient" color="info" onClick={onAddToCart} fullWidth>
-          Ver Detalles
+          Comprar por WhatsApp
         </MKButton>
       </MKBox>
     </Card>

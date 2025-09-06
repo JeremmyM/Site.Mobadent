@@ -33,7 +33,50 @@ import footerRoutes from "footer.routes";
 // Image
 import bgImage from "assets/images/illustrations/illustration-reset.jpg";
 
+// React hooks para manejar el estado
+import { useState } from "react";
+
 function ContactUs() {
+  // Usar el estado de React para guardar los valores de los inputs
+  const [formData, setFormData] = useState({
+    fullName: "",
+    email: "",
+    message: "",
+  });
+
+  // Función para manejar los cambios en los inputs
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  // Función para manejar el envío del formulario
+  const handleFormSubmit = (e) => {
+    e.preventDefault(); // Evita que la página se recargue
+    console.log("¡La función de envío se está ejecutando!"); // ✨ Línea de prueba agregada
+
+    // Construir el mensaje para WhatsApp
+    const phoneNumber = "593960044111"; // Reemplaza con el número de teléfono deseado
+    const { fullName, email, message } = formData;
+    const whatsappMessage = `
+¡Hola! Me gustaría contactarte.
+
+Mi nombre es: ${fullName}
+Mi correo es: ${email}
+Mi consulta es la siguiente:
+${message}
+    `.trim(); // .trim() elimina espacios en blanco al inicio y final
+
+    // Codificar el mensaje para que se pueda usar en una URL
+    const encodedMessage = encodeURIComponent(whatsappMessage);
+
+    // Construir la URL completa de WhatsApp
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+    // Redirigir al usuario a la URL de WhatsApp
+    window.open(whatsappUrl, "_blank");
+  };
+
   return (
     <>
       <MKBox position="fixed" top="0.5rem" width="100%">
@@ -99,7 +142,13 @@ function ContactUs() {
                 Para preguntas sobre productos, pedidos o cualquier consulta comercial, por favor
                 llena el siguiente formulario. Nos pondremos en contacto contigo a la brevedad.
               </MKTypography>
-              <MKBox width="100%" component="form" method="post" autoComplete="off">
+              <MKBox
+                width="100%"
+                component="form"
+                method="post"
+                autoComplete="off"
+                onSubmit={handleFormSubmit}
+              >
                 <Grid container spacing={3}>
                   <Grid item xs={12} md={6}>
                     <MKInput
@@ -107,6 +156,9 @@ function ContactUs() {
                       label="Nombre Completo"
                       InputLabelProps={{ shrink: true }}
                       fullWidth
+                      name="fullName"
+                      value={formData.fullName}
+                      onChange={handleInputChange}
                     />
                   </Grid>
                   <Grid item xs={12} md={6}>
@@ -116,6 +168,9 @@ function ContactUs() {
                       label="Correo Electrónico"
                       InputLabelProps={{ shrink: true }}
                       fullWidth
+                      name="email"
+                      value={formData.email}
+                      onChange={handleInputChange}
                     />
                   </Grid>
                   <Grid item xs={12}>
@@ -127,6 +182,9 @@ function ContactUs() {
                       multiline
                       fullWidth
                       rows={6}
+                      name="message"
+                      value={formData.message}
+                      onChange={handleInputChange}
                     />
                   </Grid>
                 </Grid>

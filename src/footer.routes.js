@@ -41,8 +41,8 @@ export default {
       name: "Compañía",
       items: [
         { name: "Quiénes Somos", href: "/pages/landing-pages/about-us" },
-        { name: "Catálogo", href: "/catalogo" }, // Enlace a tu catálogo de productos
-        { name: "Nuestro Blog", href: "/blog" },
+        { name: "Catálogo", href: "/pages/productos" }, // Enlace a tu catálogo de productos
+        //{ name: "Nuestro Blog", href: "/blog" },
         { name: "Contacto", href: "/pages/landing-pages/contact-us" },
       ],
     },

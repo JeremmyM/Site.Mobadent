@@ -256,8 +256,9 @@ function Productos() {
           )}
         </Grid>
       </MKBox>
-
-      <DefaultFooter content={footerRoutes} />
+      <MKBox mt={10}>
+        <DefaultFooter content={footerRoutes} />
+      </MKBox>
     </>
   );
 }
