@@ -2,7 +2,7 @@
 
 // Importamos los hooks de React
 import { useState, useEffect } from "react";
-// CAMBIO: Importamos el hook useLocation para leer la URL
+// Importamos el hook useLocation para leer la URL
 import { useLocation } from "react-router-dom";
 
 // Importa los componentes de Material Kit
@@ -14,6 +14,7 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import MKInput from "components/MKInput";
 import InputAdornment from "@mui/material/InputAdornment";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 // Importa los iconos de Material UI
 import SearchIcon from "@mui/icons-material/Search";
@@ -46,33 +47,20 @@ function getProductImage(imagePath) {
   }
 }
 
-// Función de prueba para el botón "Ver Detalles"
-const handleViewDetails = (productName) => {
-  alert(`Ver detalles del producto: "${productName}"`);
-};
-
 function Productos() {
-  // CAMBIO: Usamos el hook useLocation para obtener la URL actual
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
   const urlCategory = searchParams.get("categoria");
 
-  // 1. Estados para los filtros, el buscador y los productos mostrados
-  // CAMBIO: Usamos el valor de la URL para inicializar el estado
   const [selectedCategory, setSelectedCategory] = useState(urlCategory || "Todos");
   const [selectedVendor, setSelectedVendor] = useState("Todos");
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredProducts, setFilteredProducts] = useState(productsData);
 
-  // 2. Nuevos estados para las opciones de los filtros
   const [displayCategories, setDisplayCategories] = useState([]);
   const [displayVendors, setDisplayVendors] = useState([]);
 
-  // 3. Hook useEffect para la lógica de filtrado y opciones dinámicas
   useEffect(() => {
-    // La lógica de filtrado se mantiene igual, pero ahora se disparará
-    // automáticamente cuando cambie la URL gracias a la dependencia 'location.search'
-    // y el estado inicial `selectedCategory`
     const productsAfterSearch = productsData.filter((product) => {
       const lowerCaseQuery = searchQuery.toLowerCase().trim();
       return (
@@ -113,10 +101,6 @@ function Productos() {
     finalProducts.sort((a, b) => a.orden - b.orden);
 
     setFilteredProducts(finalProducts);
-
-    // CAMBIO: Agregamos `location.search` a las dependencias. Esto hará que el efecto se
-    // vuelva a ejecutar si el parámetro de consulta cambia, por ejemplo, si
-    // el usuario navega a otra categoría desde otra página.
   }, [selectedCategory, selectedVendor, searchQuery, location.search]);
 
   return (
@@ -126,7 +110,7 @@ function Productos() {
         action={{
           type: "internal",
           route: "https://wa.me/593960044111",
-          label: "Contactanos",
+          label: "Contáctanos",
           color: "default",
         }}
         transparent
@@ -194,8 +178,6 @@ function Productos() {
                     ))}
                   </Select>
                 </FormControl>
-
-                {/* Filtro por Marca/Vendor */}
               </MKBox>
               <MKBox>
                 <MKTypography variant="h6" color="text" mb={1} sx={{ textAlign: "left" }}>
@@ -239,16 +221,29 @@ function Productos() {
           {/* Fin de la sección de filtros y buscador */}
 
           {filteredProducts.length > 0 ? (
-            filteredProducts.map((product) => (
-              <Grid item xs={12} sm={6} md={4} lg={3} key={product.id}>
-                <ProductCard
-                  image={getProductImage(product.image)}
-                  name={product.name}
-                  description={product.description}
-                  onAddToCart={() => handleViewDetails(product.name)}
-                />
-              </Grid>
-            ))
+            filteredProducts.map((product) => {
+              // Variables para el enlace de WhatsApp
+              const phoneNumber = "593960044111";
+              const message = `¡Hola! Estoy interesado en el producto "${product.name}" que vi en el catálogo de Mobadent. ¿Me pueden dar más información, por favor?`;
+              const encodedMessage = encodeURIComponent(message);
+              const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+              return (
+                <Grid item xs={12} sm={6} md={4} lg={3} key={product.id}>
+                  <ProductCard
+                    image={getProductImage(product.image)}
+                    name={product.name}
+                    description={product.description}
+                    action={{
+                      type: "external", // Cambiamos el tipo a "external"
+                      route: whatsappUrl, // Usamos la URL de WhatsApp en la propiedad "route"
+                      label: "Comprar por WhatsApp",
+                      icon: <WhatsAppIcon />,
+                    }}
+                  />
+                </Grid>
+              );
+            })
           ) : (
             <MKTypography variant="h5" color="text" mt={5}>
               No se encontraron productos con los filtros seleccionados.
