@@ -12,7 +12,7 @@
     "gallery": [
       "/products/main/BIFI002.jpg"
     ],
-    "description": "Cemento de resina autoadhesivo dual para la fijaciуn de restauraciones indirectas.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -32,7 +32,7 @@
     "gallery": [
       "/products/main/MERO003.jpg"
     ],
-    "description": "Cemento de ionуmero de vidrio para cementaciones y bases.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -52,7 +52,7 @@
     "gallery": [
       "/products/main/RELY004.jpg"
     ],
-    "description": "Cemento de resina autoadhesivo de polimerizaciуn dual para la cementaciуn de restauraciones indirectas.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -72,7 +72,7 @@
     "gallery": [
       "/products/main/RELY005.jpg"
     ],
-    "description": "Cemento temporal sin eugenol para la cementaciуn de restauraciones provisionales.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -92,7 +92,7 @@
     "gallery": [
       "/products/main/RELY006.jpg"
     ],
-    "description": "Cemento de resina fotopolimerizable para cementar carillas de porcelana y resina.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -112,7 +112,7 @@
     "gallery": [
       "/products/main/PARA007.jpg"
     ],
-    "description": "Material de resina dual para reconstrucciуn de muсones y cementaciуn de postes.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -132,7 +132,7 @@
     "gallery": [
       "/products/main/ALLC008.jpg"
     ],
-    "description": "Cemento de resina dual para la cementaciуn de postes y coronas.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -152,7 +152,7 @@
     "gallery": [
       "/products/main/FUJI009.jpg"
     ],
-    "description": "Cemento de ionуmero de vidrio para la cementaciуn de coronas y puentes.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -163,20 +163,20 @@
     "orden": 9,
     "id": "FUJI010",
     "productCode": "FUJI010",
-    "name": "FUJI GOLD LABEL 2",
+    "name": "FUJI GOLD LABEL 1",
     "category": "Cementos",
-    "slug": "fuji-gold-label-2",
+    "slug": "fuji-gold-label-1",
     "vendor": "GC",
     "originalPrice": "",
     "image": "/products/main/FUJI010.jpg",
     "gallery": [
       "/products/main/FUJI010.jpg"
     ],
-    "description": "Ionуmero de vidrio para restauraciones directas de Clase I y II.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
-    "alt": "FUJI GOLD LABEL 2",
+    "alt": "FUJI GOLD LABEL 1",
     "meta": "Ionуmero de vidrio para restauraciones directas de Clase I y II."
   },
   {
@@ -192,7 +192,7 @@
     "gallery": [
       "/products/main/FUJI011.jpg"
     ],
-    "description": "Ionуmero de vidrio de alta resistencia para restauraciones de piezas posteriores.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -212,7 +212,7 @@
     "gallery": [
       "/products/main/FUJI012.jpg"
     ],
-    "description": "Ionуmero de vidrio de baja viscosidad, fotopolimerizable, para bases y revestimientos.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -232,7 +232,7 @@
     "gallery": [
       "/products/main/VIT-013.jpg"
     ],
-    "description": "Resina compuesta de estйtica avanzada para restauraciones directas.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -252,7 +252,7 @@
     "gallery": [
       "/products/main/FORM014.jpg"
     ],
-    "description": "Resina de alto pulido y estйtica para restauraciones anteriores y posteriores.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -272,7 +272,7 @@
     "gallery": [
       "/products/main/RESI015.jpg"
     ],
-    "description": "Resina nanohнbrida universal para restauraciones de alta estйtica.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -292,7 +292,7 @@
     "gallery": [
       "/products/main/POLO016.jpg"
     ],
-    "description": "Resina compuesta microhнbrida para restauraciones estйticas y duraderas.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -312,7 +312,7 @@
     "gallery": [
       "/products/main/POLO017.jpg"
     ],
-    "description": "Resina nanohнbrida de alta viscosidad para restauraciones directas.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -332,7 +332,7 @@
     "gallery": [
       "/products/main/TWIN018.jpg"
     ],
-    "description": "Resina compuesta de colores para restauraciones directas pediбtricas.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -352,7 +352,7 @@
     "gallery": [
       "/products/main/FILT019.jpg"
     ],
-    "description": "Resina nanorrellena universal para restauraciones de alta estйtica.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -372,7 +372,7 @@
     "gallery": [
       "/products/main/FILT020.jpg"
     ],
-    "description": "Resina compuesta condensable para restauraciones posteriores.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -392,7 +392,7 @@
     "gallery": [
       "/products/main/FILT021.jpg"
     ],
-    "description": "Resina fluida para restauraciones posteriores de gran volumen.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -412,7 +412,7 @@
     "gallery": [
       "/products/main/CLIN022.jpg"
     ],
-    "description": "Sellador de fosas y fisuras fotopolimerizable con liberaciуn de flъor.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -432,7 +432,7 @@
     "gallery": [
       "/products/main/CERA023.jpg"
     ],
-    "description": "Resina de cerбmica reforzada para restauraciones indirectas.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -452,7 +452,7 @@
     "gallery": [
       "/products/main/RESI024.jpg"
     ],
-    "description": "Resina compuesta fotopolimerizable para restauraciones anteriores y posteriores.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -472,7 +472,7 @@
     "gallery": [
       "/products/main/PRIM025.jpg"
     ],
-    "description": "Resina compuesta universal para restauraciones estйticas.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -492,7 +492,7 @@
     "gallery": [
       "/products/main/BRIL026.jpg"
     ],
-    "description": "Resina microhнbrida de alta resistencia y brillo.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -512,7 +512,7 @@
     "gallery": [
       "/products/main/LLIS027.jpg"
     ],
-    "description": "Resina compuesta nanohнbrida para restauraciones de alta estйtica.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -532,7 +532,7 @@
     "gallery": [
       "/products/main/NEOF028.jpg"
     ],
-    "description": "Resina compuesta universal para restauraciones estйticas.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -552,7 +552,7 @@
     "gallery": [
       "/products/main/OPAL029.jpg"
     ],
-    "description": "Resina fluida de baja viscosidad para restauraciones y liners.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -572,7 +572,7 @@
     "gallery": [
       "/products/main/LIMA030.jpg"
     ],
-    "description": "Instrumento manual de acero inoxidable para la instrumentaciуn del conducto radicular.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -592,7 +592,7 @@
     "gallery": [
       "/products/main/LIMA031.jpg"
     ],
-    "description": "Instrumento de acero inoxidable para la conformaciуn del conducto radicular.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -612,7 +612,7 @@
     "gallery": [
       "/products/main/LIMA032.jpg"
     ],
-    "description": "Lima de acero inoxidable de alta flexibilidad para conductos curvos.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -632,7 +632,7 @@
     "gallery": [
       "/products/main/LIMA033.jpg"
     ],
-    "description": "Limas de acero preesterilizadas de un solo uso.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -652,7 +652,7 @@
     "gallery": [
       "/products/main/LIMA034.jpg"
     ],
-    "description": "Limas rotatorias de nнquel-titanio de alta flexibilidad.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -672,7 +672,7 @@
     "gallery": [
       "/products/main/LIMA035.jpg"
     ],
-    "description": "Limas de nнquel-titanio rotatorias para la preparaciуn del conducto.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -692,7 +692,7 @@
     "gallery": [
       "/products/main/LIMA036.jpg"
     ],
-    "description": "Limas rotatorias recнprocas para la preparaciуn del conducto en un solo instrumento.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -712,7 +712,7 @@
     "gallery": [
       "/products/main/CONS037.jpg"
     ],
-    "description": "Agente de irrigaciуn final para la eliminaciуn de la capa de detritos.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -732,7 +732,7 @@
     "gallery": [
       "/products/main/SOLU038.jpg"
     ],
-    "description": "Soluciуn para quelar y desbridar el conducto radicular.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -752,7 +752,7 @@
     "gallery": [
       "/products/main/HIPO039.jpg"
     ],
-    "description": "Soluciуn para la irrigaciуn y desinfecciуn del conducto radicular.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -772,7 +772,7 @@
     "gallery": [
       "/products/main/ENDO040.jpg"
     ],
-    "description": "Punta para irrigaciуn de conductos radiculares.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -792,7 +792,7 @@
     "gallery": [
       "/products/main/CAPI041.jpg"
     ],
-    "description": "Punta de irrigaciуn para conductos muy estrechos.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -812,7 +812,7 @@
     "gallery": [
       "/products/main/NAVI042.jpg"
     ],
-    "description": "Punta de irrigaciуn flexible con aguja lateral para una distribuciуn uniforme.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -832,7 +832,7 @@
     "gallery": [
       "/products/main/FRES043.jpg"
     ],
-    "description": "Fresa para ensanchar el tercio coronal del conducto.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -852,7 +852,7 @@
     "gallery": [
       "/products/main/FRES044.jpg"
     ],
-    "description": "Fresa para la preparaciуn de los conductos para postes.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -872,7 +872,7 @@
     "gallery": [
       "/products/main/FRES045.jpg"
     ],
-    "description": "Fresa de punta inactiva para la apertura cameral.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -892,7 +892,7 @@
     "gallery": [
       "/products/main/PARA046.jpg"
     ],
-    "description": "Poste de titanio con forma cуnica para la retenciуn en la raнz.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -912,7 +912,7 @@
     "gallery": [
       "/products/main/PARA047.jpg"
     ],
-    "description": "Poste de titanio de paredes finas para conductos estrechos.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -932,7 +932,7 @@
     "gallery": [
       "/products/main/PARA048.jpg"
     ],
-    "description": "Poste de titanio de gran diбmetro para conductos anchos.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -952,7 +952,7 @@
     "gallery": [
       "/products/main/INTE049.jpg"
     ],
-    "description": "Fibras de refuerzo de polietileno para la estabilizaciуn de dientes.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -972,7 +972,7 @@
     "gallery": [
       "/products/main/POST050.jpg"
     ],
-    "description": "Postes de fibra de vidrio para la reconstrucciуn de muсones.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -992,7 +992,7 @@
     "gallery": [
       "/products/main/UNIC051.jpg"
     ],
-    "description": "Poste de fibra de vidrio para la reconstrucciуn de muсones.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -1012,7 +1012,7 @@
     "gallery": [
       "/products/main/PARA052.jpg"
     ],
-    "description": "Poste de fibra de vidrio translъcido para restauraciones estйticas.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -1032,7 +1032,7 @@
     "gallery": [
       "/products/main/PARA053.jpg"
     ],
-    "description": "Poste de fibra de vidrio cуnico y translъcido.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -1052,7 +1052,7 @@
     "gallery": [
       "/products/main/PARA054.jpg"
     ],
-    "description": "Poste de fibra de vidrio blanco para restauraciones estйticas.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -1072,7 +1072,7 @@
     "gallery": [
       "/products/main/PIN-055.jpg"
     ],
-    "description": "Poste de metal para la retenciуn en la reconstrucciуn.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -1092,7 +1092,7 @@
     "gallery": [
       "/products/main/SILA056.jpg"
     ],
-    "description": "Agente de uniуn para restauraciones de cerбmica y resina.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -1112,7 +1112,7 @@
     "gallery": [
       "/products/main/OPAL057.jpg"
     ],
-    "description": "Gel para blanqueamiento dental en el interior de la cбmara pulpar.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -1132,7 +1132,7 @@
     "gallery": [
       "/products/main/DYCA058.jpg"
     ],
-    "description": "Material de hidrуxido de calcio para recubrimiento pulpar indirecto.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -1152,7 +1152,7 @@
     "gallery": [
       "/products/main/SEAL059.jpg"
     ],
-    "description": "Sellador de conductos radiculares a base de hidrуxido de calcio.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -1172,7 +1172,7 @@
     "gallery": [
       "/products/main/BIOD060.jpg"
     ],
-    "description": "Material de silicato de calcio para protecciуn pulpar y reparaciones endodуnticas.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -1192,7 +1192,7 @@
     "gallery": [
       "/products/main/PERM061.jpg"
     ],
-    "description": "Material para recubrimiento pulpar indirecto.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -1212,7 +1212,7 @@
     "gallery": [
       "/products/main/CONO062.jpg"
     ],
-    "description": "Puntas para el relleno de conductos radiculares.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -1232,7 +1232,7 @@
     "gallery": [
       "/products/main/ULTR063.jpg"
     ],
-    "description": "Liner de hidrуxido de calcio para recubrimiento pulpar directo.",
+    "description": "",
     "specs": "",
     "shipping": "",
     "support": "",
@@ -2071,9 +2071,9 @@
     "orden": 109,
     "id": "SIST110",
     "productCode": "SIST110",
-    "name": "SISTEMA DE MATRICESSECCIONALESUNIMATRIX® – TDV",
+    "name": "SISTEMA DE MATRICESSECCIONALES UNIMATRIX® – TDV",
     "category": "Preparacion",
-    "slug": "sistema-de-matricesseccionalesunimatrix-tdv",
+    "slug": "sistema-de-matricesseccionales-unimatrix-tdv",
     "vendor": "",
     "originalPrice": "",
     "image": "/products/main/SIST110.jpg",
@@ -2771,14 +2771,14 @@
   },
   {
     "orden": 148,
-    "id": "LÁMI149",
+    "id": "cd ",
     "productCode": "LÁMI149",
     "name": "LÁMINAS DE ACETATO",
     "category": "Miscelaneo",
     "slug": "laminas-de-acetato",
     "vendor": "",
     "originalPrice": "",
-    "image": "/products/main/LÁMI149.jpg",
+    "image": "/products/main/cd .jpg",
     "gallery": [],
     "description": "",
     "specs": "",
@@ -3439,9 +3439,9 @@
     "orden": 185,
     "id": "TIRA186",
     "productCode": "TIRA186",
-    "name": "TIRA INTERPROXIMALDIAMANTADACON CENTRO NEUTRO",
+    "name": "TIRA INTERPROXIMALDIAMANTADA CON CENTRO NEUTRO",
     "category": "Terminado",
-    "slug": "tira-interproximaldiamantadacon-centro-neutro",
+    "slug": "tira-interproximaldiamantada-con-centro-neutro",
     "vendor": "",
     "originalPrice": "",
     "image": "/products/main/TIRA186.jpg",
