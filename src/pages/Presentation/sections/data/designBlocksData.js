@@ -32,49 +32,49 @@ export default [
       {
         // Usa la variable importada en lugar de la ruta de la cadena de texto
         image: collectionImage,
-        name: "Equipos y Herramientas",
+        name: "Blanquemientos",
         count: 10,
         // CAMBIO: Añadir el parámetro de consulta a la ruta
-        route: "/pages/productos?categoria=Equipos y Herramientas",
+        route: "/pages/productos?categoria=Blanqueamientos",
       },
       {
         image: collectionImage2,
-        name: "Materiales de Restauración",
+        name: "Cementos",
         count: 14,
         // CAMBIO: Añadir el parámetro de consulta a la ruta
-        route: "/pages/productos?categoria=Materiales de Restauración",
+        route: "/pages/productos?categoria=Cementos",
       },
       {
         image: collectionImage3,
-        name: "Desinfección y Bioseguridad",
+        name: "Grabado y Adhesion",
         count: 8,
         pro: false,
         // CAMBIO: Añadir el parámetro de consulta a la ruta
-        route: "/pages/productos?categoria=Desinfección y Bioseguridad",
+        route: "/pages/productos?categoria=Grabado y Adhesion",
       },
       {
         image: collectionImage4,
-        name: "Instrumental Quirúrgico",
+        name: "Endodoncia",
         count: 1,
         pro: false,
         // CAMBIO: Añadir el parámetro de consulta a la ruta
-        route: "/pages/productos?categoria=Instrumental Quirúrgico",
+        route: "/pages/productos?categoria=Endodoncia",
       },
       {
         image: collectionImage5,
-        name: "Ortodoncia",
+        name: "Manejo de Tejidos",
         count: 11,
         pro: false,
         // CAMBIO: Añadir el parámetro de consulta a la ruta
-        route: "/pages/productos?categoria=Ortodoncia",
+        route: "/pages/productos?categoria=Manejo de tejidos",
       },
       {
         image: collectionImage6,
-        name: "Endodoncia",
+        name: "Composites",
         count: 11,
         pro: false,
         // CAMBIO: Añadir el parámetro de consulta a la ruta
-        route: "/pages/productos?categoria=Endodoncia",
+        route: "/pages/productos?categoria=Composites",
       },
     ],
   },
