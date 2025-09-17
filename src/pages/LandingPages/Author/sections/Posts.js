@@ -35,9 +35,10 @@ function Places() {
   return (
     <MKBox component="section" py={2}>
       <Container>
-        <Grid container item xs={12} lg={6}>
+        <Grid container item xs={12} lg={12}>
           <MKTypography variant="h3" mb={6}>
-            Lee nuestras últimas entradas de blog
+            Estamos preparando contenido valioso para ti. Nuestro blog estará disponible muy pronto
+            con consejos, noticias y guías sobre materiales dentales. ¡Mantente atento!
           </MKTypography>
         </Grid>
         <Grid container spacing={3}>
@@ -48,9 +49,9 @@ function Places() {
               description="Seleccionar el instrumental adecuado es crucial para el éxito de cualquier procedimiento. Aquí te mostramos cómo..."
               action={{
                 type: "internal",
-                route: "/pages/blogs/post-1",
+                route: "",
                 color: "info",
-                label: "leer más",
+                label: "Proximamente",
               }}
             />
           </Grid>
@@ -61,9 +62,9 @@ function Places() {
               description="La tecnología avanza rápidamente. Conoce los nuevos materiales que están revolucionando la odontología estética."
               action={{
                 type: "internal",
-                route: "/pages/blogs/post-2",
+                route: "",
                 color: "info",
-                label: "leer más",
+                label: "Proximamente",
               }}
             />
           </Grid>
@@ -74,9 +75,9 @@ function Places() {
               description="Desde equipos hasta software, te ayudamos a equipar tu consultorio para ofrecer un servicio de vanguardia."
               action={{
                 type: "internal",
-                route: "/pages/blogs/post-3",
+                route: "",
                 color: "info",
-                label: "leer más",
+                label: "Proximamente",
               }}
             />
           </Grid>
@@ -87,8 +88,8 @@ function Places() {
               description="Descubre cómo optimizar la gestión de tus materiales dentales para ahorrar tiempo y reducir costos."
               action={{
                 type: "internal",
-                route: "/pages/blogs/post-4",
-                label: "leer más",
+                route: "",
+                label: "Proximamente",
               }}
             />
           </Grid>

@@ -35,7 +35,7 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 import Information from "pages/LandingPages/AboutUs/sections/Information";
 import Team from "pages/LandingPages/AboutUs/sections/Team";
 import Featuring from "pages/LandingPages/AboutUs/sections/Featuring";
-import Newsletter from "pages/LandingPages/AboutUs/sections/Newsletter";
+//import Newsletter from "pages/LandingPages/AboutUs/sections/Newsletter";
 
 // Routes
 import routes from "routes";
@@ -153,7 +153,7 @@ function AboutUs() {
         <Information />
         <Team id="equipo" />
         <Featuring />
-        <Newsletter />
+        {/*<Newsletter />*/}
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />

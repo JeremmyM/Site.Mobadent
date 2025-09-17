@@ -76,9 +76,9 @@ function Information() {
               description="En la odontología actual, la tecnología y los materiales de vanguardia son esenciales para ofrecer un servicio de calidad y preciso a tus pacientes."
               action={{
                 type: "internal",
-                route: "pages/company/about-us",
+                route: "/pages/productos",
                 color: "info",
-                label: "Descubre más",
+                label: "Ver Catalogo",
               }}
             />
           </Grid>

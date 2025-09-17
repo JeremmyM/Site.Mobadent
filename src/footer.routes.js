@@ -2,7 +2,7 @@
 
 // @mui icons
 import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
+//import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
@@ -23,15 +23,17 @@ export default {
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "https://www.facebook.com/tu_pagina_mobadent",
+      link: "https://www.facebook.com/Mobadent1989",
     },
+    /*
     {
       icon: <TwitterIcon />,
       link: "https://twitter.com/tu_usuario_mobadent",
     },
+    */
     {
       icon: <InstagramIcon />,
-      link: "https://www.instagram.com/tu_perfil_mobadent",
+      link: "https://www.instagram.com/mobadent_ec/",
     },
     {
       icon: <WhatsAppIcon />,
@@ -53,7 +55,7 @@ export default {
         { name: "Quiénes Somos", href: "/pages/landing-pages/about-us" },
         { name: "Catálogo", href: "/pages/productos?categoria=Todos" }, // ¡AQUÍ ESTÁ LA CORRECCIÓN!
         // { name: "Nuestro Blog", href: "/blog" },
-        { name: "Contacto", href: "/pages/landing-pages/contact-us" },
+        //{ name: "Contacto", href: "/pages/landing-pages/contact-us" },
       ],
     },
     {

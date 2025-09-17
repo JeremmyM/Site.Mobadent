@@ -46,7 +46,7 @@ function TransparentBlogCard({ image, title, description, action }) {
   };
 
   const imageTemplate = (
-    <MKBox position="relative" borderRadius="lg">
+    <MKBox position="relative" borderRadius="lg" sx={{ height: "250px" }}>
       <MKBox
         component="img"
         src={image}
@@ -54,8 +54,13 @@ function TransparentBlogCard({ image, title, description, action }) {
         borderRadius="lg"
         shadow="md"
         width="100%"
+        height="100%"
         position="relative"
         zIndex={1}
+        sx={{
+          objectFit: "cover",
+          objectPosition: "center",
+        }}
       />
       <MKBox
         borderRadius="lg"
