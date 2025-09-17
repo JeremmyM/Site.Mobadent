@@ -8,7 +8,7 @@
 
 Coded by www.creative-tim.com
 
- =========================================================
+=========================================================
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
@@ -22,10 +22,9 @@ import Icon from "@mui/material/Icon";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-function BuiltByDevelopers() {
-  const bgImage =
-    "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/desktop.jpg";
+import bgImage from "../../../../assets/images/index/index1.jpg";
 
+function BuiltByDevelopers() {
   return (
     <MKBox
       display="flex"
@@ -40,7 +39,7 @@ function BuiltByDevelopers() {
             rgba(gradients.dark.state, 0.8)
           )}, url(${bgImage})`,
         backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundPosition: "center top",
       }}
     >
       <Container>
