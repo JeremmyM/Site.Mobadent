@@ -21,7 +21,7 @@ import Card from "@mui/material/Card";
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
-import MKSocialButton from "components/MKSocialButton";
+//import MKSocialButton from "components/MKSocialButton";
 
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
@@ -180,6 +180,7 @@ function Presentation() {
                 mr={{ xs: 0, lg: "auto" }}
                 sx={{ textAlign: { xs: "center", lg: "right" } }}
               >
+                {/*
                 <MKSocialButton
                   component="a"
                   href="https://twitter.com/intent/tweet?text=Check%20"
@@ -209,6 +210,8 @@ function Presentation() {
                   <i className="fab fa-pinterest" />
                   &nbsp;Pin it
                 </MKSocialButton>
+
+                */}
               </Grid>
             </Grid>
           </Container>

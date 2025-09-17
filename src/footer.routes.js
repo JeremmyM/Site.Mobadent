@@ -40,6 +40,14 @@ export default {
   ],
   menus: [
     {
+      name: "",
+      items: [
+        { name: "", href: "" },
+        { name: "", href: "" },
+        { name: "", href: "" },
+      ],
+    },
+    {
       name: "Compañía",
       items: [
         { name: "Quiénes Somos", href: "/pages/landing-pages/about-us" },
@@ -52,28 +60,20 @@ export default {
       name: "Productos",
       items: [
         {
-          name: "Equipos y Herramientas",
-          href: "/pages/productos?categoria=Equipos y Herramientas",
+          name: "Cementos",
+          href: "/pages/productos?categoria=Cementos",
         },
-        { name: "Materiales", href: "/pages/productos?categoria=Materiales" },
-        { name: "Ortodoncia", href: "/pages/productos?categoria=Ortodoncia" },
-        { name: "Insumos Desechables", href: "/pages/productos?categoria=Insumos Desechables" },
+        { name: "Composites", href: "/pages/productos?categoria=Composites" },
+        { name: "Endodoncia", href: "/pages/productos?categoria=Endodoncia" },
+        { name: "Blanqueamientos", href: "/pages/productos?categoria=Blanqueamientos" },
       ],
     },
     {
-      name: "Ayuda y Soporte",
+      name: "",
       items: [
-        { name: "Contáctanos", href: "/pages/landing-pages/contact-us" },
-        { name: "Preguntas Frecuentes (FAQ)", href: "/faq" },
-        { name: "Políticas de Envío", href: "/politicas-envio" },
-      ],
-    },
-    {
-      name: "Legal",
-      items: [
-        { name: "Términos y Condiciones", href: "/legal/terminos-condiciones" },
-        { name: "Política de Privacidad", href: "/legal/politica-privacidad" },
-        { name: "Licencias", href: "/legal/licencias" },
+        { name: "", href: "" },
+        { name: "", href: "" },
+        { name: "", href: "" },
       ],
     },
   ],
